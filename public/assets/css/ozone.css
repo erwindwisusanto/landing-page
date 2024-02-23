@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
- --white: #FFFFFF;
- --green-pastel: #1AABA9;
+ 	--white: #FFFFFF;
+ 	--green-pastel: #1AABA9;
+ 	--green-wa: #26D367;
+ 	--blue-tele: #039BE5;
+ 	--bg-input: #F4F4F4;
+ 	--abu-abu: #7A7A7A;
+	--light-blue: #E5FFFE;
+	--txt-green-light: #00B2AE;
+	--txt-green-dark: #0C747F;
+	--green-pastel-2: #D3FFFF;
+	--dark-grey-2: #606060;
+	--orange: #F89500;
 }
 
 body {
@@ -17,6 +27,118 @@ body {
 
 .txt-white {
 	color: var(--white);
+}
+
+.btn-wa {
+	background-color: var(--green-wa);
+	color: var(--white);
+	border-radius: 100px;
+	width: 100%;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-tele {
+	background-color: var(--blue-tele);
+	color: var(--white);
+	width: 100%;
+	border-radius: 100px;
+}
+
+.btn-cosult {
+	background-color: var(--orange);
+	color: var(--white);
+	width: 70%;
+	border-radius: 100px;
+	padding: 0p 5px 0px 5px;
+}
+
+.bg-white-custom {
+	background-color: var(--white);
+}
+
+.bg-input {
+	background-color: var(--bg-input);
+	border: none;
+}
+
+.bg-light-blue {
+	background-color: var(--light-blue);
+}
+
+.txt-green-dark {
+	color: var(--txt-green-dark);
+}
+
+.txt-green-light {
+	color: var(--txt-green-light);
+}
+
+.fw-6 {
+	font-weight: 600;
+}
+
+.abu-abu {
+	color: var(--abu-abu);
+}
+
+.bg-green-dark{
+	background-color: var(--txt-green-dark);
+}
+
+.txt-green-pastel-2 {
+	color: var(--green-pastel-2);
+}
+
+
+.uel {
+	margin: 0;
+	padding-left: 1.2em;
+}
+
+.eli {
+	list-style-type: disc;
+	position: relative;
+	color: var(--green-pastel-2);
+	margin-bottom: 10px;
+}
+
+.el {
+	list-style-type: disc;
+	position: relative;
+	color: var(--green-pastel-2);
+}
+
+.bg-image {
+	position: absolute;
+	top: 50px;
+	left: 65vw;
+	width: 36%;
+	height: 88%;
+	object-fit: cover;
+	z-index: 0;
+}
+
+.bg-image-ct2 {
+	position: absolute;
+	top: 90px;
+	left: 50vw;
+	width: 36%;
+	height: 45%;
+	object-fit: cover;
+	z-index: 0;
+	scale: 2;
+}
+
+.abu-abu-2 {
+	color: var(--dark-grey-2);
+}
+
+.banner {
+	background: url('../img/BANNER-1.svg') center/cover no-repeat;
+	height: 35vh;
+	display: flex;
+	align-items: center;
+	zoom: 95%;
 }
 
 @media screen and (max-width: 922px) {
