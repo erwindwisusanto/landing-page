@@ -1,6 +1,6 @@
 <footer class="footer">
   <section class="bg-footer py-4 py-md-5 py-xl-8">
-    <div class="container overflow-hidden px-3">
+    <div class="container overflow-hidden px-4">
       <div class="row gy-4 gy-lg-0 justify-content-xl-between">
         <div class="col-6 col-md-4 col-lg-3 col-xl-2 d-flex align-items-center">
           <div class="widget">
@@ -25,7 +25,7 @@
         </div>
         <div class="col-12 col-md-4 col-lg-3 col-xl-2 pt-4">
           <div class="widget">
-            <h4 class="widget-title mb-4 txt-white" style="font-weight: 600;">PT Cepat Sehat Indonesia</h4>
+            <h4 class="widget-title mb-4 txt-white" style="font-weight: 500;">PT Cepat Sehat Indonesia</h4>
             <address class="mb-4 txt-white" style="font-size: 13px;">Jalan Peternakan No. 13, Kel. Tengah, Kec. Kramat jati, Kota Adm. Jakarta Timur, Provinsi DKI Jakarta 13510
 							sehatcepat.com</address>
             <p class="mb-1">
