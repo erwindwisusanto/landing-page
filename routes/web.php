@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\LandingController;
+use App\Http\Controllers\LanguageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,8 +16,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+  return view('welcome');
 });
+
+route::get('/lang/{locale}', [LanguageController::class, 'lang'])->name('lang');
 
 Route::get('/ozone-theraphy', [LandingController::class, 'ozoneTheraphy'])->name('ozone');
 Route::get('/teethwhitening', [LandingController::class, 'teethWhitening'])->name('tw');
