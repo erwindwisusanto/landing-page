@@ -314,7 +314,7 @@
 			</div>
 		</section>
 
-		<section class="book py-5 bg-white" id="book">
+		<section class="book py-4 bg-white" id="book">
 			<div class="container">
 					<h3 class="title-section"> {{ __('landing.section9.title') }} </h3>
 					<form action="#">
