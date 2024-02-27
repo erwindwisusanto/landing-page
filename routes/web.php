@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/ozone-theraphy', [LandingController::class, 'ozoneTheraphy'])->name('ozone');
+Route::get('/teethwhitening', [LandingController::class, 'teethWhitening'])->name('tw');
