@@ -11,4 +11,9 @@ class LandingController extends Controller
 	{
 		return view('pages/ozone-theraphy');
 	}
+
+	public function teethWhitening(): View
+	{
+		return view('pages/teeth-whitening');
+	}
 }
