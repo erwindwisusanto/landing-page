@@ -2,9 +2,9 @@
 	<div class="container">
 			<div class="d-flex align-items-center">
 					<a href="index.html">
-							<img src="{{ asset('assets/img/logo-white-cepat-sehat.svg') }}" class="logo" alt="">
+							<img src="{{ asset('assets/ozone/img/logo-white-cepat-sehat.svg') }}" class="logo" alt="">
 					</a>
-					<img src="{{ asset('assets/img/logo-atensi.png') }}" class="logo-atensi ms-auto" alt="">
+					<img src="{{ asset('assets/ozone/img/logo-atensi.png') }}" class="logo-atensi ms-auto" alt="">
 			</div>
 			<div class="row mt-4">
 					<div class="col-md-8 text-white">

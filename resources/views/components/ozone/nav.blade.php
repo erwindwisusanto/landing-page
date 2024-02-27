@@ -2,7 +2,7 @@
 	<div class="container mx-auto" style="max-width: 640px;">
 			<div class="d-flex align-items-center">
 					<a href="index.html" class="nav-brand">
-							<img src="{{ asset('assets/img/logo_cepat_sehat.svg') }}" alt="">
+							<img src="{{ asset('assets/ozone/img/logo_cepat_sehat.svg') }}" alt="">
 					</a>
 					<div class="btn-group ms-auto">
 							<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"

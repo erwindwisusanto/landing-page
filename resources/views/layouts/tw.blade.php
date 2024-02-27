@@ -18,13 +18,13 @@
     <link rel="icon" type="image/x-icon" href="{{ asset('assets/teeth-whitening/img/favicon.svg') }}">
 
     <!-- fontello -->
-    <link rel="stylesheet" href="{{ asset('assets/teeth-whitening/fontello/css/csehat.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/global/fontello/css/csehat.css') }}">
 
     <!-- swiper -->
-    <link rel="stylesheet" href="{{ asset('assets/teeth-whitening/css/swiper-bundle.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/global/css/swiper-bundle.min.css') }}">
 
     <!-- bootstrap -->
-    <link rel="stylesheet" href="{{ asset('assets/teeth-whitening/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/global/bootstrap/css/bootstrap.min.css') }}">
 
     <!-- custom -->
     <link rel="stylesheet" href="{{ asset('assets/teeth-whitening/css/style.css') }}">
@@ -36,9 +36,9 @@
 
 		<x-teeth-whitening.footer/>
 
-		<script src="{{ asset('assets/teeth-whitening/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="{{ asset('assets/teeth-whitening/js/swiper-bundle.min.js') }}"></script>
+		<script src="{{ asset('assets/global/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="{{ asset('assets/global/js/swiper-bundle.min.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
 
   </body>
