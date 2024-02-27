@@ -5,13 +5,12 @@
 			<div class="container">
 				<div class="text">
 					<h3>
-						The Ultimate in-Home Teeth Whitening
+						{{ __('landing.banner.h3') }}
 					</h3>
 					<p>
-						Help you achieve the pearly white teeth you've dreamed of, all from the comfort of your own
-						home.
+						{{ __('landing.banner.p') }}
 					</p>
-					<a href="https://api.whatsapp.com/send/?phone=6285212500030&text&type=phone_number&app_absent=0" class="btn btn-warning fs-14"> Contact Us </a>
+					<a href="https://api.whatsapp.com/send/?phone=6285212500030&text&type=phone_number&app_absent=0" class="btn btn-warning fs-14"> {{ __('landing.banner.button') }} </a>
 				</div>
 			</div>
 		</section>
@@ -30,7 +29,7 @@
 				<section class="kelebihan">
 					<div class="container">
 						<h3 class="title-section" style="text-align: left;">
-							Why Choose Our Dental Homecare Teeth Whitener?
+							{{ __('landing.section3.h3') }}
 						</h3>
 						<div class="row">
 								<div class="col-md-4">
@@ -39,12 +38,10 @@
 														<img src="{{ asset('assets/teeth-whitening/img/icon-why/ic-why01.svg') }}" class="img-benefits" alt="">
 														<div class="title">
 																<h5>
-																		Professional-Quality Results
+																	{{ __('landing.section3.h5_1') }}
 																</h5>
 																<p>
-																		Our teeth whitening products are designed to deliver
-																		professional-quality results without the hefty price tag. You can
-																		achieve a noticeably brighter smile without leaving your home.
+																	{{ __('landing.section3.p_1') }}
 																</p>
 														</div>
 												</div>
@@ -56,12 +53,10 @@
 														<img src="{{ asset('assets/teeth-whitening/img/icon-why/ic-why02.svg') }}" class="img-benefits" alt="">
 														<div class="title">
 																<h5>
-																		Safe and Effective
+																	{{ __('landing.section3.h5_2') }}
 																</h5>
 																<p>
-																		Our products are formulated with your oral health in mind. They are
-																		safe, effective, and won't harm your enamel or gums when used as
-																		directed.
+																	{{ __('landing.section3.p_2') }}
 																</p>
 														</div>
 												</div>
@@ -73,11 +68,10 @@
 														<img src="{{ asset('assets/teeth-whitening/img/icon-why/ic-why03.svg') }}" class="img-benefits" alt="">
 														<div class="title">
 																<h5>
-																		Convenient Homecare
+																	{{ __('landing.section3.h5_3') }}
 																</h5>
 																<p>
-																		No need to book appointments or spend hours at the dentist's office. Our
-																		teeth whitening solutions fit seamlessly into your daily routine.
+																	{{ __('landing.section3.p_3') }}
 																</p>
 														</div>
 												</div>
@@ -91,15 +85,15 @@
 
 		<section class="our-teeth bg-white py-4">
 			<h3 class="title-section mb-4">
-					Our Teeth Whitening Products
+				{{ __('landing.section4.h3') }}
 			</h3>
 			<div class="row g-0 align-items-center">
 					<div class="col-6 p-4 p-md-5">
 							<h5>
-									Dental Homecare Whitening Strips
+								{{ __('landing.section4.h5_1') }}
 							</h5>
 							<p>
-									Convenient, easy-to-use strips that effectively remove stains from your teeth.
+								{{ __('landing.section4.p_1') }}
 							</p>
 					</div>
 					<div class="col-6">
@@ -112,20 +106,20 @@
 					</div>
 					<div class="col-6 p-4 p-md-5">
 							<h5>
-									Dental Homecare Whitening Gel
+								{{ __('landing.section4.h5_2') }}
 							</h5>
 							<p>
-									A powerful gel designed to brighten your smile when used with our LED accelerator light.
+								{{ __('landing.section4.p_2') }}
 							</p>
 					</div>
 			</div>
 			<div class="row g-0 align-items-center">
 					<div class="col-6 p-4 p-md-5">
 							<h5>
-									Dental Homecare Whitening Kit
+								{{ __('landing.section4.h5_3') }}
 							</h5>
 							<p>
-									All-in-one kit containing strips, gel, and LED light for a complete teeth whitening experience.
+								{{ __('landing.section4.p_3') }}
 							</p>
 					</div>
 					<div class="col-6">
@@ -137,7 +131,7 @@
 		<section class="bg-white" id="carousel">
 			<div class="container px-4">
 				<div class="title-section">
-					Portable <br> Equipment
+					{{ __('landing.section5.title') }} <br> {{ __('landing.section5.title_2') }}
 				</div>
 			</div>
 			<div class="swiper swiper-article">
@@ -181,7 +175,7 @@
 													<img src="{{ asset('assets/teeth-whitening/img/icon-tips/ic-tips01.svg') }}" class="img-benefits" alt="">
 													<div class="title">
 															<p>
-																	Maintain a consistent routine for the best results.
+																{{ __('landing.section6.p_1') }}
 															</p>
 													</div>
 											</div>
@@ -193,8 +187,7 @@
 													<img src="{{ asset('assets/teeth-whitening/img/icon-tips/ic-tips02.svg') }}" class="img-benefits" alt="">
 													<div class="title">
 															<p>
-																	Avoid staining foods and drinks, such as coffee, tea, and red wine, during the
-																	treatment period.
+																{{ __('landing.section6.p_2') }}
 															</p>
 													</div>
 											</div>
@@ -206,8 +199,7 @@
 													<img src="{{ asset('assets/teeth-whitening/img/icon-tips/ic-tips03.svg') }}" class="img-benefits" alt="">
 													<div class="title">
 															<p>
-																	Don't forget to smile! A positive attitude and self-confidence can make your
-																	smile even more stunning.
+																{{ __('landing.section6.p_3') }}
 															</p>
 													</div>
 											</div>
@@ -220,7 +212,7 @@
 		<section class="potential py-4 bg-white">
 			<div class="container">
 					<h3 class="title-section">
-							Oral Health Education
+						{{ __('landing.section7.title') }}
 					</h3>
 					<div class="row justify-content-center">
 							<div class="col-md-8">
@@ -248,8 +240,7 @@
 		<section class="testimoni">
 			<div class="container">
 					<h3 class="title-section">
-							Testimonials
-							from Satisfied Customers
+						{{ __('landing.section8.title') }}
 					</h3>
 					<div class="swiper swiper-article">
 							<div class="swiper-wrapper">
@@ -259,9 +250,7 @@
 															<img src="{{ asset('assets/teeth-whitening/img/testi/Testi 1.png') }}" class="img-testimoni" alt="">
 													</div>
 													<p>
-															"I was skeptical about at-home teeth whitening, but Dental Homecare's Whitening Kit
-															proved me wrong! I started noticing results after just a few uses. My smile is now
-															several shades brighter, and I feel more confident than ever."
+															"{{ __('landing.section8.testimoni_p_1') }}"
 													</p>
 													<p>
 															<b>Dimas .A</b> -Bekasi
@@ -274,8 +263,7 @@
 															<img src="{{ asset('assets/teeth-whitening/img/testi/Testi 2.png') }}" class="img-testimoni" alt="">
 													</div>
 													<p>
-															"Satisfying ! made me more confident, the changes could be seen immediately in the
-															first treatment."
+														"{{ __('landing.section8.testimoni_p_2') }}"
 													</p>
 													<p>
 															<b>Budi .S</b> -Jakarta
@@ -288,8 +276,7 @@
 															<img src="{{ asset('assets/teeth-whitening/img/testi/Testi 3.png') }}" class="img-testimoni" alt="">
 													</div>
 													<p>
-															"This is my second treatment, my smile has become brighter and more beautiful. Can't
-															wait to follow the next treatment schedule."
+														"{{ __('landing.section8.testimoni_p_3') }}"
 													</p>
 													<p>
 															<b>Karina .N</b> -Depok
@@ -302,8 +289,7 @@
 															<img src="{{ asset('assets/teeth-whitening/img/testi/Testi 4.png') }}" class="img-testimoni" alt="">
 													</div>
 													<p>
-															"Saved my day as an employee, no more worry about less bright teeth due to coffee
-															consumption habits. Good Job, will improve my appearance."
+														"{{ __('landing.section8.testimoni_p_4') }}"
 													</p>
 													<p>
 															<b>Cakra .N</b> -Jakarta
@@ -316,8 +302,7 @@
 															<img src="{{ asset('assets/teeth-whitening/img/testi/Testi 5.png') }}" class="img-testimoni" alt="">
 													</div>
 													<p>
-															"Highly recommend this teeth whitening treatment to my friends, the results are
-															instant with a relatively short treatment time. Thank you, Cepat Sehat Clinic."
+														"{{ __('landing.section8.testimoni_p_5') }}"
 													</p>
 													<p>
 															<b>Bella .P</b> -Bogor
@@ -331,19 +316,19 @@
 
 		<section class="book py-5 bg-white" id="book">
 			<div class="container">
-					<h3 class="title-section"> Book Now </h3>
+					<h3 class="title-section"> {{ __('landing.section9.title') }} </h3>
 					<form action="#">
 							<div class="row mb-4 g-3">
 									<div class="col-md-4">
-											<label for="" class="form-label">Name</label>
-											<input type="text" class="form-control" id="name" placeholder="Your Name">
+											<label for="" class="form-label">{{ __('landing.section9.label_name') }}</label>
+											<input type="text" class="form-control" id="name" placeholder="{{ __('landing.section9.label_name') }}">
 									</div>
 									<div class="col-md-4">
-											<label for="" class="form-label">Address</label>
-											<input type="text" class="form-control" id="address" placeholder="Your Address">
+											<label for="" class="form-label">{{ __('landing.section9.label_alamat') }}</label>
+											<input type="text" class="form-control" id="address" placeholder="{{ __('landing.section9.label_alamat') }}">
 									</div>
 									<div class="col-md-4">
-											<label for="" class="form-label">Service</label>
+											<label for="" class="form-label">{{ __('landing.section9.label_Layanan') }}</label>
 											<select class="form-select form-control" id="service" aria-label="Default select example">
 													<option selected>Teeth Whitening</option>
 											</select>
@@ -402,7 +387,7 @@
 		}
 
 		let formatMessage = `Hallo CepatSehat.com by Klinik Cepat Sehat, saya ingin konsultasi\n\nNama: ${name}\nAlamat: ${addres}\nLayanan: ${service}`;
-		let whatsapp = window.open(`https://api.whatsapp.com/send/?phone=${WA_CEPAT_SEHAT}&text=${encodeURIComponent(formatMessage)}`);
+		window.open(`https://api.whatsapp.com/send/?phone=${WA_CEPAT_SEHAT}&text=${encodeURIComponent(formatMessage)}`);
 	});
 
 	$('#btn-tele').click(()=> {
