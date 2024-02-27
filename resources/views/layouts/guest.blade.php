@@ -17,27 +17,26 @@
 					crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 		{{-- favicon --}}
-		<link rel="icon" type="image/x-icon" href="{{ asset('assets/img/favicon.svg') }}">
-
-		{{-- ozone style --}}
-		<link href="{{ asset('assets/css/ozone.css') }}" rel="stylesheet">
+		<link rel="icon" type="image/x-icon" href="{{ asset('assets/ozone/img/favicon.svg') }}">
 
 		{{-- fontello --}}
-		<link rel="stylesheet" href="{{ asset('assets/fontello/css/csehat.css') }}">
+		<link rel="stylesheet" href="{{ asset('assets/global/fontello/css/csehat.css') }}">
 
 		{{-- bootstrap --}}
-		<link href="{{ asset('assets/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+		<link href="{{ asset('assets/global/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
 		{{-- custom --}}
-		<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+		<link rel="stylesheet" href="{{ asset('assets/ozone/css/style.css') }}">
+
+		{{-- ozone style --}}
+		<link href="{{ asset('assets/ozone/css/ozone.css') }}" rel="stylesheet">
   </head>
   <body class="mx-auto bg-f7">
 
     {{ $slot }}
 
 		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="{{ asset('assets/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-		<script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/global/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
 
   </body>

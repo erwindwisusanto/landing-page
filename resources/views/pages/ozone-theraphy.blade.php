@@ -1,5 +1,5 @@
 <x-guest-layout>
-	<x-nav/>
+	<x-ozone.nav/>
 
 	<section class="banner-pages homepage" style="margin-top: 8vh; height: 265px;">
 		<div class="container px-4 py-4">
@@ -24,7 +24,7 @@
 			</div>
 			<div class="row">
 				<div class="col-6 d-flex justify-content-center align-items-center">
-					<img src="{{ asset('assets/img/Website-Headings.svg') }}"
+					<img src="{{ asset('assets/ozone/img/Website-Headings.svg') }}"
 					class="img-fluid"
 					alt="infusion">
 				</div>
@@ -38,7 +38,7 @@
 	</section>
 
 	<section class="bg-white-custom pt-4" style="position: relative; overflow: hidden;">
-		<img src="{{ asset('assets/img/plusplus.svg') }}"
+		<img src="{{ asset('assets/ozone/img/plusplus.svg') }}"
 			class="img-fluid bg-image-ct2"
 			alt="infusion">
 		<div class="container px-4 py-4" style="position: relative">
@@ -125,7 +125,7 @@
 	</section>
 
 	<section class="bg-green-dark pt-4" style="position: relative; overflow: hidden;">
-		<img src="{{ asset('assets/img/infus.svg') }}"
+		<img src="{{ asset('assets/ozone/img/infus.svg') }}"
 			class="img-fluid bg-image"
 			alt="infusion">
 		<div class="container px-4 py-4" style="position: relative">
@@ -161,7 +161,7 @@
 
 	<section id="content-5">
 		<div class="d-block mx-auto">
-			<img src="{{ asset('assets/img/ozonr-1.svg') }}"
+			<img src="{{ asset('assets/ozone/img/ozonr-1.svg') }}"
 				class="img-fluid"
 				alt="Modern Facilities"
 				width="100%">
@@ -175,7 +175,7 @@
 		 	</div>
 			<div class="row mb-3">
 				<div class="col-1" style="width: 60px;">
-					<img src="{{ asset('assets/img/people.svg') }}"
+					<img src="{{ asset('assets/ozone/img/people.svg') }}"
 						class="img-fluid"
 						alt="Experienced Team">
 				</div>
@@ -193,7 +193,7 @@
 			</div>
 			<div class="row mb-3">
 				<div class="col-1" style="width: 60px;">
-					<img src="{{ asset('assets/img/building.svg') }}"
+					<img src="{{ asset('assets/ozone/img/building.svg') }}"
 						class="img-fluid"
 						alt="Modern Facilities">
 				</div>
@@ -211,7 +211,7 @@
 			</div>
 			<div class="row">
 				<div class="col-1" style="width: 60px;">
-					<img src="{{ asset('assets/img/trainer.svg') }}"
+					<img src="{{ asset('assets/ozone/img/trainer.svg') }}"
 						class="img-fluid"
 						alt="Personal Care">
 				</div>
@@ -229,7 +229,7 @@
 			</div>
 		</div>
 		<div>
-			<img src="{{ asset('assets/img/mobil-ozone-1.svg') }}"
+			<img src="{{ asset('assets/ozone/img/mobil-ozone-1.svg') }}"
 				class="img-fluid"
 				alt="Modern Facilities"
 				width="100%">
@@ -267,17 +267,17 @@
 			</div>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="{{ asset('assets/img/carousel1.svg') }}"
+					<img src="{{ asset('assets/ozone/img/carousel1.svg') }}"
 						class="d-block w-100"
 						alt="..." style="height: 45vh;">
 				</div>
 				<div class="carousel-item">
-					<img src="{{ asset('assets/img/carousel1.svg') }}"
+					<img src="{{ asset('assets/ozone/img/carousel1.svg') }}"
 						class="d-block w-100"
 						alt="..." style="height: 45vh;">
 				</div>
 				<div class="carousel-item">
-					<img src="{{ asset('assets/img/carousel1.svg') }}"
+					<img src="{{ asset('assets/ozone/img/carousel1.svg') }}"
 						class="d-block w-100"
 						alt="..." style="height: 45vh;">
 				</div>
@@ -318,7 +318,7 @@
 									data-toggle="lightbox" data-gallery="youtubevideos" class="col-md-6 gallery-video">
 									<img src="https://img.youtube.com/vi/FufD6pNAMSY/sddefault.jpg" class="thumbnail-yt">
 									<div class="play-button">
-											<img src="{{ asset('assets/img/circle-play.svg') }}" alt="">
+											<img src="{{ asset('assets/ozone/img/circle-play.svg') }}" alt="">
 									</div>
 								</a>
 				</div>
@@ -327,7 +327,7 @@
 									data-toggle="lightbox" data-gallery="youtubevideos" class="col-md-6 gallery-video">
 									<img src="https://img.youtube.com/vi/qSK5y87frWc/sddefault.jpg" class="thumbnail-yt">
 									<div class="play-button">
-											<img src="{{ asset('assets/img/circle-play.svg') }}" alt="">
+											<img src="{{ asset('assets/ozone/img/circle-play.svg') }}" alt="">
 									</div>
 								</a>
 				</div>
@@ -338,7 +338,7 @@
 									data-toggle="lightbox" data-gallery="youtubevideos" class="col-md-6 gallery-video">
 									<img src="https://img.youtube.com/vi/vArzko4gRbk/sddefault.jpg" class="thumbnail-yt">
 									<div class="play-button">
-											<img src="{{ asset('assets/img/circle-play.svg') }}" alt="">
+											<img src="{{ asset('assets/ozone/img/circle-play.svg') }}" alt="">
 									</div>
 								</a>
 				</div>
@@ -347,7 +347,7 @@
 									data-toggle="lightbox" data-gallery="youtubevideos" class="col-md-6 gallery-video">
 									<img src="https://img.youtube.com/vi/Yxb9zUb7q_k/hqdefault.jpg" class="thumbnail-yt">
 									<div class="play-button">
-											<img src="{{ asset('assets/img/circle-play.svg') }}" alt="">
+											<img src="{{ asset('assets/ozone/img/circle-play.svg') }}" alt="">
 									</div>
 								</a>
 				</div>
@@ -391,5 +391,5 @@
 		</div>
 	</section>
 
-	<x-footer/>
+	<x-ozone.footer/>
 </x-guest-layout>
