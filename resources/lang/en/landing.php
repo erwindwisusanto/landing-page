@@ -44,7 +44,7 @@ return [
 		several shades brighter, and I feel more confident than ever.",
 		"testimoni_p_2" => "Satisfying ! made me more confident, the changes could be seen immediately in the first treatment.",
 		"testimoni_p_3" => "This is my second treatment, my smile has become brighter and more beautiful. Can't wait to follow the next treatment schedule.",
-		"testimono_p_4" => "Saved my day as an employee, no more worry about less bright teeth due to coffee consumption habits. Good Job, will improve my appearance.",
+		"testimoni_p_4" => "Saved my day as an employee, no more worry about less bright teeth due to coffee consumption habits. Good Job, will improve my appearance.",
 		"testimoni_p_5" => "Highly recommend this teeth whitening treatment to my friends, the results are instant with a relatively short treatment time. Thank you, Cepat Sehat Clinic.",
 	],
 	"section9" => [
