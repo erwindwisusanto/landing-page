@@ -10,7 +10,7 @@
 					<p>
 						{{ __('landing.banner.p') }}
 					</p>
-					<a href="https://api.whatsapp.com/send/?phone=6285212500030&text&type=phone_number&app_absent=0" class="btn btn-warning fs-14"> {{ __('landing.banner.button') }} </a>
+					<a href="#book" class="btn btn-warning fs-14"> {{ __('landing.banner.button') }} </a>
 				</div>
 			</div>
 		</section>
