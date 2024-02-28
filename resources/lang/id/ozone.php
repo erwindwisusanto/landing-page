@@ -54,4 +54,9 @@ return [
 		"label_2" => "Alamat",
 		"label_3" => "Layanan",
 	],
+	"ozoneProcedure" => [
+		"title" => "Terapi Ozon Jakarta",
+		"desc" => "Lepaskan Kekuatan Penyembuhan, Secara Alami!",
+		"title_section_2" => "Prosedur Terapi Ozon",
+	],
 ];
