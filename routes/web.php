@@ -22,4 +22,4 @@ Route::get('/', function () {
 route::get('/lang/{locale}', [LanguageController::class, 'lang'])->name('lang');
 
 Route::get('/ozone-theraphy', [LandingController::class, 'ozoneTheraphy'])->name('ozone');
-Route::get('/teethwhitening', [LandingController::class, 'teethWhitening'])->name('tw');
+Route::get('/teeth-whitening', [LandingController::class, 'teethWhitening'])->name('tw');
