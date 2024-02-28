@@ -40,20 +40,20 @@ return [
 	],
 	"section8" => [
 		"title" => "Testimoni dari Pelanggan yang Puas",
-		"testimoni_p_1" => '"Saya skeptis tentang pemutihan gigi di rumah, tetapi Kit Pemutih Gigi dari Dental Homecare
+		"testimoni_p_1" => "Saya skeptis tentang pemutihan gigi di rumah, tetapi Kit Pemutih Gigi dari Dental Homecare
 		membuktikan bahwa saya salah! Saya mulai melihat hasilnya setelah beberapa kali pemakaian. Senyum saya sekarang
-		beberapa tingkat lebih cerah, dan saya merasa lebih percaya diri dari sebelumnya."',
-		"testimono_p_2" => '"Memuaskan! membuat saya lebih percaya diri, perubahannya bisa langsung terlihat dalam
-		perawatan pertama."',
-		"testimoni_p_3" => '"Ini adalah perawatan kedua saya, senyum saya menjadi lebih cerah dan indah. Tidak bisa
-		menunggu untuk mengikuti jadwal perawatan berikutnya."',
-		"testimono_p_3" => '"Menyelamatkan hari saya sebagai karyawan, tidak ada lagi kekhawatiran tentang gigi yang kurang cerah karena kebiasaan konsumsi kopi
-		karena kebiasaan konsumsi kopi. Kerja yang bagus, akan meningkatkan penampilan saya."',
-		"testimoni_p_4" => '"Sangat merekomendasikan perawatan pemutihan gigi ini kepada teman-teman saya, hasilnya
-		instan dengan waktu perawatan yang relatif singkat. Terima kasih Klinik Cepat Sehat."',
+		beberapa tingkat lebih cerah, dan saya merasa lebih percaya diri dari sebelumnya.",
+		"testimoni_p_2" => "Memuaskan! membuat saya lebih percaya diri, perubahannya bisa langsung terlihat dalam
+		perawatan pertama.",
+		"testimoni_p_3" => "Ini adalah perawatan kedua saya, senyum saya menjadi lebih cerah dan indah. Tidak bisa
+		menunggu untuk mengikuti jadwal perawatan berikutnya.",
+		"testimoni_p_4" => "Menyelamatkan hari saya sebagai karyawan, tidak ada lagi kekhawatiran tentang gigi yang kurang cerah karena kebiasaan konsumsi kopi
+		karena kebiasaan konsumsi kopi. Kerja yang bagus, akan meningkatkan penampilan saya.",
+		"testimoni_p_5" => "Sangat merekomendasikan perawatan pemutihan gigi ini kepada teman-teman saya, hasilnya
+		instan dengan waktu perawatan yang relatif singkat. Terima kasih Klinik Cepat Sehat.",
 	],
 	"section9" => [
-		"title" => "Pesan Sekarang",
+		"title" => "Pesan Sekarang ",
 		"label_name" => "Nama",
 		"label_alamat" => "Alamat",
 		"label_Layanan" => "Layanan",
