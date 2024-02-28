@@ -53,7 +53,7 @@ return [
 		instan dengan waktu perawatan yang relatif singkat. Terima kasih Klinik Cepat Sehat.",
 	],
 	"section9" => [
-		"title" => "Pesan Sekarang",
+		"title" => "Pesan Sekarang ",
 		"label_name" => "Nama",
 		"label_alamat" => "Alamat",
 		"label_Layanan" => "Layanan",
