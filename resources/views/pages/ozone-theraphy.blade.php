@@ -405,27 +405,5 @@
 
 	<x-ozone.footer/>
 </x-guest-layout>
-
-<script>
-	"use strict";
-
-	const WA_CEPAT_SEHAT = "6285212500030";
-
-	$('#btn-wa').click(()=> {
-	let name = $('#name').val();
-	let addres = $('#address').val();
-	let service = $('#service').val();
-
-	if (name.length < 3 || addres.length < 3 || service.length < 3) {
-		alert('please fill form with correctly');
-		return;
-	}
-
-	let formatMessage = `Hallo CepatSehat.com by Klinik Cepat Sehat, saya ingin konsultasi\n\nNama: ${name}\nAlamat: ${addres}\nLayanan: ${service}`;
-		window.open(`https://api.whatsapp.com/send/?phone=${WA_CEPAT_SEHAT}&text=${encodeURIComponent(formatMessage)}`);
-	});
-
-	$('#btn-tele').click(()=> {
-		let telegram = window.open(`https://t.me/cepat_sehat`);
-	});
-</script>
+<script src="{{ asset('assets/global/js/landing.js') }}"
+				type="text/javascript"></script>

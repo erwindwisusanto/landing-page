@@ -8,13 +8,15 @@ use Illuminate\View\View;
 
 class LandingController extends Controller
 {
-	public function ozoneTheraphy(): View
-	{
+	public function ozoneTheraphy(): View {
 		return view('pages/ozone-theraphy');
 	}
 
-	public function teethWhitening(): View
-	{
+	public function teethWhitening(): View {
 		return view('pages/teeth-whitening');
+	}
+
+	public function ozoneTheraphyJakarata(): View {
+		return view('pages/ozone-theraphy-procedure');
 	}
 }

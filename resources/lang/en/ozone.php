@@ -54,4 +54,9 @@ return [
 		"label_2" => "Address",
 		"label_3" => "Service",
 	],
+	"ozoneProcedure" => [
+		"title" => "Ozone Therapy Jakarta",
+		"desc" => "Unleash the Power of Healing, Naturally!",
+		"title_section_2" => "Ozone Therapy Procedure",
+	],
 ];
