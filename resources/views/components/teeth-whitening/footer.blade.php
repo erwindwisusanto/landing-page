@@ -4,14 +4,13 @@
 					<a href="index.html">
 							<img src="{{ asset('assets/teeth-whitening/img/logo-white.png') }}" class="logo" alt="">
 					</a>
-					<img src="{{ asset('assets/teeth-whitening/img/logo-atensi.png') }}" class="logo-atensi ms-auto" alt="">
+					<img src="{{ asset('assets/teeth-whitening/img/logo-atensi-2.png') }}" class="logo-atensi ms-auto" alt="">
 			</div>
 			<div class="row mt-4">
 					<div class="col-md-8 text-white">
-							<h4 class="fs-14">PT Cepat Sehat Indonesia</h4>
-							<p>Jalan Peternakan No. 13, Kel. Tengah, Kec. Kramat jati, Kota Adm. Jakarta Timur, Provinsi DKI
-									Jakarta 13510 <br>
-									sehatcepat.com</p>
+							<h4 class="fs-14">Klinik Cepat Sehat Indonesia</h4>
+							<p>Registered Number 04102100035090001</p>
+							<p>Jalan Peternakan No. 13, Kel. Tengah, Kec. Kramat jati, Kota Adm. Jakarta Timur, Provinsi DKI Jakarta 13510</p>
 					</div>
 					<div class="col-md-12">
 							<div class="d-flex align-items-center">
