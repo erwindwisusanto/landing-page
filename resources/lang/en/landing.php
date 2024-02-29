@@ -6,6 +6,16 @@ return [
 		"p" => "Help you achieve the pearly white teeth you've dreamed of, all from the comfort of your own home.",
 		"button" => "Contact Us"
 	],
+	"section2" => [
+		"title" => "Say goodbye to stains and discoloration and hello to a radiant, confident you!",
+	],
+	"imgproviding" => [
+		"title" => "Providing Portable at Home Dental Services"
+	],
+	"gigi" => [
+		"title_1" => "Teeth Whitening",
+		"title_2" => "Tips and Tricks",
+	],
 	"section3" => [
 		"h3" => "Why Choose Our Dental Homecare Teeth Whitener?",
 		"h5_1" => "Professional-Quality Results",

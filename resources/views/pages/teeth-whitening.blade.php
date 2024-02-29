@@ -16,11 +16,10 @@
 		</section>
 
 		<section class="saygood bg-white my-1 my-md-2">
-			<div class="d-block d-md-none">
-				<img src="{{ asset('assets/teeth-whitening/img/img-saygood.png') }}" class="w-100" alt="">
-			</div>
-			<div class="d-none d-md-block">
-				<img src="{{ asset('assets/teeth-whitening/img/img-saygood-desktop.png') }}" class="w-100" alt="">
+			<div class="container px-md-5 px-3">
+				<div class="col-6 offset-6" style="text-align: right;">
+					<h5 class="txt-section-2">{{ __('landing.section2.title') }}</h5>
+				</div>
 			</div>
 		</section>
 
@@ -153,20 +152,30 @@
 						</div>
 				</div>
 			</div>
-			<div class="mt-5">
-				<img src="{{ asset('assets/teeth-whitening/img/img-providing.png') }}"
-					class="img-fluid"
-					alt="providing"
-					width="100%">
+		</section>
+
+		<section class="img-providing bg-white">
+			<div class="container px-md-5 px-3">
+				<div class="col-7 offset-5" style="text-align: right;">
+					<h5 class="title-section" style="text-align: right">{{ __('landing.imgproviding.title') }}</h5>
+				</div>
 			</div>
 		</section>
 
 		<section class="tips">
 			<div class="container">
-					<div class="row justify-content-center">
-							<div class="col-md-4">
-									<img src="{{ asset('assets/teeth-whitening/img/img-titletips.png') }}" class="w-100" alt="">
+					<div class="row d-block justify-content-center">
+						<div style="position: relative; height: 80px;">
+							<div class="text-1" style="display: inline-block;
+																				border: 2px solid white; border-radius: 15px;
+																				padding: 5px 5px 5px 25px; z-index: 1; position: absolute;
+																				width: 245px;">
+									<span style="font-size: 20px; font-weight: 600;">{{ __('landing.gigi.title_1') }}<br>{{ __('landing.gigi.title_2') }}</span>
 							</div>
+							<div class="img-1" style="display: inline-block; z-index: 2; position: relative; right: -195px; top: -25px;">
+									<img src="{{ asset('assets/teeth-whitening/img/gigi.svg') }}">
+							</div>
+						</div>
 					</div>
 					<div class="row">
 							<div class="col-md-4">
@@ -365,6 +374,10 @@
         </div>
     </div>
 	</div>
+
+	<input type="hidden" id="lang" name="lang" value="{{ strtoupper(app()->getLocale()) }}">
+	<input type="hidden" id="landing-page" name="landing-page" value="teeth-whitening">
+
 </x-tw-layout>
 <script src="{{ asset('assets/global/js/landing.js') }}"
 				type="text/javascript"></script>

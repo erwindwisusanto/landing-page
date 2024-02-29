@@ -6,6 +6,16 @@ return [
 		"p" => "Membantu Anda mendapatkan gigi putih seperti mutiara yang Anda impikan, semua dari kenyamanan rumah Anda sendirirumah.",
 		"button" => "Hubungi Kami"
 	],
+	"section2" => [
+		"title" => "Ucapkan selamat tinggal pada noda dan perubahan warna gigi dan sambutlah Anda yang bercahaya dan percaya diri!",
+	],
+	"imgproviding" => [
+		"title" => "Menyediakan Perlengkapan Perawatan Gigi Portabel di Rumah"
+	],
+	"gigi" => [
+		"title_1" => "Tips dan Trik",
+		"title_2" => "Memutihan Gigi",
+	],
 	"section3" => [
 		"h3" => "Mengapa Memilih Pemutih Gigi Dental Homecare Kami?",
 		"h5_1" => "Hasil Berkualitas Profesional",
