@@ -7,22 +7,47 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 const WA_CEPAT_SEHAT = "6285212500030";
 
 $('#btn-wa').click(()=> {
-let name = $('#name').val();
-let addres = $('#address').val();
-let service = $('#service').val();
+	let lang = $('#lang').val();
+	let name = $('#name').val();
+	let address = $('#address').val();
+	let service = $('#service').val();
+	let landingPage = $('#landing-page').val();
+	let formatMessage;
 
-if (name.length < 3 || addres.length < 3 || service.length < 3) {
-	alert('please fill form with correctly');
-	return;
-}
+	if (name.length < 3 || address.length < 3 || service.length < 3) {
+		alert('please fill form with correctly');
+		return;
+	}
 
-let formatMessage = `Hallo CepatSehat.com by Klinik Cepat Sehat, saya ingin konsultasi\n\nNama: ${name}\nAlamat: ${addres}\nLayanan: ${service}`;
+	if (landingPage === "teeth-whitening") {
+		switch (lang) {
+			case 'ID':
+				formatMessage = wordingIndonesianTw(name, address, service);
+				break;
+			case 'EN':
+				formatMessage = wordingEnglishTw(name, address, service);
+				break;
+			default:
+				alert('error!');
+		}
+	} else if (landingPage === "ozone-theraphy") {
+		alert('this ozone');
+	}
+
 	window.open(`https://api.whatsapp.com/send/?phone=${WA_CEPAT_SEHAT}&text=${encodeURIComponent(formatMessage)}`);
 });
 
 $('#btn-tele').click(()=> {
-	let telegram = window.open(`https://t.me/cepat_sehat`);
+	window.open(`https://t.me/cepat_sehat`);
 });
+
+var wordingIndonesianTw = (name, address, service) => {
+	return `Hallo Perawatan pemutihan gigi di rumah by Klinik Cepat Sehat, saya ingin konsultasi\n\nNama: ${name}\nAlamat: ${address}\nLayanan: ${service}`;
+}
+
+var wordingEnglishTw = (name, address, service) => {
+	return `Hello In-Home Teeth Whitening by Cepat Sehat Clinic, i want a consultation\n\nName: ${name}\nAddress: ${address}\nService: ${service}`;
+}
 
 $(document).ready(function () {
 	new Swiper('.swiper-article', {
@@ -60,5 +85,15 @@ $(document).ready(function () {
 				scrollTop: $anchor.top - offsetValue
 		}, 1000); // added duration for smooth scrolling
 		return false;
+	});
+
+	let lang = $('#lang').val();
+
+	$('.btn-circle.whatsapp a').attr('href', function() {
+		let langID = "Hallo Perawatan pemutihan gigi di rumah by Klinik Cepat Sehat, saya ingin konsultasi";
+		let langEN = "Hello In-Home Teeth Whitening by Cepat Sehat Clinic, i want a consultation";
+
+		return lang === 'ID' ? `https://api.whatsapp.com/send/?phone=${WA_CEPAT_SEHAT}&text=${encodeURIComponent(langID)}`
+												: `https://api.whatsapp.com/send/?phone=${WA_CEPAT_SEHAT}&text=${encodeURIComponent(langEN)}`;
 	});
 });

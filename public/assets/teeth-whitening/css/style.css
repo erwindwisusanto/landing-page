@@ -103,6 +103,25 @@
     align-items: center;
     color: #fff;
 }
+.saygood {
+	background: url("../img/tw-section-2.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	display: flex;
+	aspect-ratio: 365 / 260;
+	align-items: center;
+}
+.img-providing {
+	background: url("../img/img-providing.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	display: flex;
+	aspect-ratio: 295 / 260;
+}
 .btn-float .btn-circle.whatsapp {
     background-color: #48c857;
     margin-bottom: 12px;
@@ -279,12 +298,27 @@ a {
     .hero-banner {
         height: 130vh;
     }
+		.saygood {
+			aspect-ratio: 700/370;
+		}
+
+		.txt-section-2 {
+			font-size: 16px;
+		}
 }
 @media (max-width: 575.98px) {
     .hero-banner {
         aspect-ratio: 414/284;
         height: auto;
     }
+
+		.saygood {
+			aspect-ratio: 495/370;
+		}
+
+		.txt-section-2 {
+			font-size: 14px;
+		}
 }
 .hero-banner .text {
     width: 55%;
@@ -345,6 +379,10 @@ section .title-flex p {
     section .title-flex p {
         font-size: 18px;
     }
+
+		.txt-section-2 {
+			font-size: 16px;
+		}
 }
 section .title-section {
     padding-top: 14px;
