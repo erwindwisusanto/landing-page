@@ -1,6 +1,12 @@
 <?php
 
 return [
+	"title" => "Pemutih Gigi",
+	"dropdown" => [
+		"option1" => "Perawatan Strip Pemutihan Gigi",
+		"option2" => "Perawatan Gel Pemutihan Gigi",
+		"option3" => "Perawatan Kit Pemutihan Gigi",
+	],
 	"banner" => [
 		"h3" => "Layanan pemutihan Gigi Terbaik di Rumah",
 		"p" => "Membantu Anda mendapatkan gigi seputih mutiara, dari kenyamanan rumah Anda sendiri.",
