@@ -1,6 +1,12 @@
 <?php
 
 return [
+	"title" => "Teeth Whitening",
+	"dropdown" => [
+		"option1" => "Dental Whitening Strips",
+		"option2" => "Dental Whitening Gel",
+		"option3" => "Dental Whitening Kit",
+	],
 	"banner" => [
 		"h3" => "The Ultimate in-Home Teeth Whitening",
 		"p" => "Help you achieve the pearly white teeth you've dreamed of, all from the comfort of your own home.",
