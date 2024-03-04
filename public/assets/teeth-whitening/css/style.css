@@ -104,23 +104,30 @@
     color: #fff;
 }
 .saygood {
-	background: url("../img/tw-section-2.svg");
-	background-size: cover;
+	background: url("../img/smile.svg");
+	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: left;
 	width: 100%;
 	display: flex;
-	aspect-ratio: 365 / 260;
+	aspect-ratio: 1000 / 270;
 	align-items: center;
 }
 .img-providing {
 	background: url("../img/img-providing.svg");
-	background-size: cover;
+	background-size: auto;
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 100%;
 	display: flex;
-	aspect-ratio: 295 / 260;
+	aspect-ratio: 1111 / 342;
+	margin-top: 40px;
+}
+.providing {
+	position: absolute;
+    padding-top: 20px;
+	left: 37%;
+	width: 30%;
 }
 .btn-float .btn-circle.whatsapp {
     background-color: #48c857;
@@ -303,7 +310,22 @@ a {
 		}
 
 		.txt-section-2 {
-			font-size: 16px;
+			font-size: 24px;
+		}
+		.img-providing {
+			background: url("../img/img-providing.svg");
+			background-size: auto;
+			background-repeat: no-repeat;
+			background-position: center;
+			width: 100%;
+			display: flex;
+			aspect-ratio: 550 / 300;
+		}
+		.providing {
+			position: absolute;
+			padding-top: 40px;
+			width: 320px;
+			right: 147px;
 		}
 }
 @media (max-width: 575.98px) {
@@ -311,13 +333,36 @@ a {
         aspect-ratio: 414/284;
         height: auto;
     }
-
 		.saygood {
 			aspect-ratio: 495/370;
 		}
-
 		.txt-section-2 {
-			font-size: 14px;
+			font-size: 18px;
+		}
+		.img-providing{
+			background: url("../img/img-providing.svg");
+			background-size: auto;
+			background-repeat: no-repeat;
+			background-position: center;
+			width: 100%;
+			display: flex;
+			aspect-ratio: 300 / 260;
+            margin-top: 4rem;
+		}
+		.providing {
+			position: absolute;
+			width: 225px;
+			right: 0px;
+		}
+		.saygood {
+			background: url("../img/smile.svg");
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: left;
+			width: 100%;
+			display: flex;
+			aspect-ratio: 1000 / 270;
+			align-items: center;
 		}
 }
 .hero-banner .text {
@@ -381,8 +426,35 @@ section .title-flex p {
     }
 
 		.txt-section-2 {
-			font-size: 16px;
+			font-size: 14px;
 		}
+
+		.saygood {
+			background: url("../img/smile.svg");
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: left;
+			width: 100%;
+			display: flex;
+			aspect-ratio: 1000 / 270;
+			align-items: center;
+		}
+		/* .img-providing {
+			background: url("../img/img-providing.svg");
+			background-size: auto;
+			background-repeat: no-repeat;
+			background-position: center;
+			width: 100%;
+			display: flex;
+			aspect-ratio: 500 / 300;
+			margin-top: 35px;
+		}
+		.providing {
+			position: absolute;
+			padding-top: 15px;
+			width: 430px;
+			right: 100px;
+		} */
 }
 section .title-section {
     padding-top: 14px;
@@ -695,7 +767,7 @@ section.banner-pages {
     padding: 24px 0;
     color: #fff;
     position: relative;
-    height: 80vh;
+    /* height: auto; */
     width: 100%;
     overflow: hidden;
     display: flex;
@@ -707,7 +779,7 @@ section.banner-pages.homepage {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    aspect-ratio: 1280/674;
+    aspect-ratio: 1280/755;
     display: flex;
     align-items: center;
 }

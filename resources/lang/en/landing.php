@@ -48,7 +48,7 @@ return [
 		"title" => "Oral Health Education",
 	],
 	"section8" => [
-		"title" => "Testimonialsfrom Satisfied Customers",
+		"title" => "Testimonials from Satisfied Customers",
 		"testimoni_p_1" => "I was skeptical about at-home teeth whitening, but Dental Homecare's Whitening Kit
 		proved me wrong! I started noticing results after just a few uses. My smile is now
 		several shades brighter, and I feel more confident than ever.",
