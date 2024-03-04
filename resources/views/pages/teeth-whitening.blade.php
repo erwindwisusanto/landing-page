@@ -1,5 +1,5 @@
 <x-tw-layout>
-	<div class="conent">
+	<div class="content">
 
 		<section class="banner-pages homepage">
 			<div class="container">
@@ -16,8 +16,8 @@
 		</section>
 
 		<section class="saygood bg-white my-1 my-md-2">
-			<div class="container px-md-5 px-3">
-				<div class="col-6 offset-6" style="text-align: right;">
+			<div class="container">
+				<div class="col-5 offset-7" style="text-align: right;">
 					<h5 class="txt-section-2">{{ __('landing.section2.title') }}</h5>
 				</div>
 			</div>
@@ -27,7 +27,7 @@
 			<div class="col-md-12">
 				<section class="kelebihan">
 					<div class="container">
-						<h3 class="title-section" style="text-align: left;">
+						<h3 class="title-section" style="text-align: center;">
 							{{ __('landing.section3.h3') }}
 						</h3>
 						<div class="row">
@@ -130,7 +130,7 @@
 		<section class="bg-white" id="carousel">
 			<div class="container px-4">
 				<div class="title-section">
-					{{ __('landing.section5.title') }} <br> {{ __('landing.section5.title_2') }}
+					{{ __('landing.section5.title') }} {{ __('landing.section5.title_2') }}
 				</div>
 			</div>
 			<div class="swiper swiper-article">
@@ -154,25 +154,31 @@
 			</div>
 		</section>
 
-		<section class="img-providing bg-white">
-			<div class="container px-md-5 px-3">
-				<div class="col-7 offset-5" style="text-align: right;">
-					<h5 class="title-section" style="text-align: right">{{ __('landing.imgproviding.title') }}</h5>
+
+		<section class="providing">
+			<div class="container d-flex justify-content-center align-items-center">
+				<div>
+					<h5 class="title-section" style="text-align: right;">{{ __('landing.imgproviding.title') }}</h5>
 				</div>
 			</div>
 		</section>
 
+		<section class="img-providing bg-white">
+			{{-- <div class="container">
+				<div class="col-7 offset-5" style="text-align: right;">
+					<h5 class="title-section" style="text-align: right">{{ __('landing.imgproviding.title') }}</h5>
+				</div>
+			</div> --}}
+		</section>
+
 		<section class="tips">
 			<div class="container">
-					<div class="row d-block justify-content-center">
+					<div class="d-flex justify-content-center mt-4">
 						<div style="position: relative; height: 80px;">
-							<div class="text-1" style="display: inline-block;
-																				border: 2px solid white; border-radius: 15px;
-																				padding: 5px 5px 5px 25px; z-index: 1; position: absolute;
-																				width: 245px;">
+							<div class="text-1" style="display: inline-block; border: 2px solid white; border-radius: 15px; padding: 5px 5px 5px 25px; z-index: 1; position: absolute; width: 245px; right: -25px;">
 									<span style="font-size: 20px; font-weight: 600;">{{ __('landing.gigi.title_1') }}<br>{{ __('landing.gigi.title_2') }}</span>
 							</div>
-							<div class="img-1" style="display: inline-block; z-index: 2; position: relative; right: -195px; top: -25px;">
+							<div class="img-1" style="display: inline-block; z-index: 2; position: relative; right: -100px; top: -25px;">
 									<img src="{{ asset('assets/teeth-whitening/img/gigi.svg') }}">
 							</div>
 						</div>
@@ -227,14 +233,14 @@
 							<div class="col-md-8">
 									<div class="row g-3">
 											<a href="https://www.youtube.com/embed/c0W5ssAfIvU?si=_8EqI_mmfMNiLv0f"
-													data-toggle="lightbox" data-gallery="youtubevideos" class="col-md-12 gallery-video">
+													data-toggle="lightbox" data-gallery="youtubevideos" class="col-md-6 gallery-video">
 													<img src="https://img.youtube.com/vi/c0W5ssAfIvU/hqdefault.jpg" class="thumbnail-yt">
 													<div class="play-button">
 															<img src="{{ asset('assets/teeth-whitening/img/circle-play.png') }}" alt="">
 													</div>
 											</a>
 											<a href="https://www.youtube.com/embed/Yxb9zUb7q_k?si=FhbH68ylu7LBoOI2"
-													data-toggle="lightbox" data-gallery="youtubevideos" class="col-md-12 gallery-video">
+													data-toggle="lightbox" data-gallery="youtubevideos" class="col-md-6 gallery-video">
 													<img src="https://img.youtube.com/vi/Yxb9zUb7q_k/hqdefault.jpg" class="thumbnail-yt">
 													<div class="play-button">
 															<img src="{{ asset('assets/teeth-whitening/img/circle-play.png') }}" alt="">

@@ -29,7 +29,7 @@
     <!-- custom -->
     <link rel="stylesheet" href="{{ asset('assets/teeth-whitening/css/style.css') }}">
   </head>
-  <body class="mx-auto" style="max-width: 640px; background-color: #E7F4F3;">
+  <body>
 		<x-teeth-whitening.navbar/>
 
     {{ $slot }}

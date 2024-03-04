@@ -1,5 +1,5 @@
 <nav class="nav nav-top fixed-top">
-	<div class="container mx-auto" style="max-width: 640px;">
+	<div class="container">
 			<div class="d-flex align-items-center">
 					<a href="index.html" class="nav-brand">
 						<img src="{{ asset('assets/teeth-whitening/img/logo.png') }}" alt="">
@@ -10,8 +10,8 @@
 								<i class="mdi mdi-earth me-2"></i> {{ strtoupper(app()->getLocale()) }}
 						</button>
 						<ul class="dropdown-menu dropdown-menu-end">
-								<li><a class="dropdown-item" type="button" href="lang/en">English</a></li>
-								<li><a class="dropdown-item" type="button" href="lang/id">Indonesia</a></li>
+								<li><a class="dropdown-item" type="button" href="lang/en"><img src="{{ asset('assets/global/flag/EN Flag_new.png') }}" alt="" width="20">&nbsp;English</a></li>
+								<li><a class="dropdown-item" type="button" href="lang/id"><img src="{{ asset('assets/global/flag/ID Flag_new.png') }}" alt="" width="20">&nbsp;Indonesia</a></li>
 						</ul>
 					</div>
 			</div>
