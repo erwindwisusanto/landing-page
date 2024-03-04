@@ -24,3 +24,4 @@ route::get('/lang/{locale}', [LanguageController::class, 'lang'])->name('lang');
 Route::get('/ozone-theraphy', [LandingController::class, 'ozoneTheraphy'])->name('ozone');
 Route::get('/ozone-theraphy-procedure', [LandingController::class, 'ozoneTheraphyJakarata'])->name('ozone-jakarta');
 Route::get('/teeth-whitening', [LandingController::class, 'teethWhitening'])->name('tw');
+Route::get('/teeth-whitenings', [LandingController::class, 'teethWhitenings'])->name('tw');
