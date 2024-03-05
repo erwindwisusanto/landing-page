@@ -526,7 +526,7 @@
 							</div>
 							<div class="col-md-12">
 									<div class="d-flex align-items-center">
-											<a href="https://api.whatsapp.com/send/?phone=6282211189009&text&type=phone_number&app_absent=0"
+											<a href="https://api.whatsapp.com/send/?phone=6285212500030&text&type=phone_number&app_absent=0"
 													class="phone text-white fs-14 d-flex align-items-center">
 													<i class="mdi mdi-phone me-2 fs-24"></i> 0822 1118 9009
 											</a>
@@ -566,7 +566,7 @@
 			const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(
 					tooltipTriggerEl));
 
-			const WA_CEPAT_SEHAT = "6282211189009";
+			const WA_CEPAT_SEHAT = "6285212500030";
 
 			$('#btn-wa').click(()=> {
 				let lang = $('#lang').val();
