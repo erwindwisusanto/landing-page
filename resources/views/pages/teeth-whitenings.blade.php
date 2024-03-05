@@ -504,7 +504,7 @@
             </a>
         </div>
         <div class="btn-circle telegram">
-            <a href="https://t.me/unbanking" class="text-white">
+            <a href="https://t.me/cepat_sehat" class="text-white">
                 <i class="fs-24 fa-brands fa-telegram"></i>
             </a>
         </div>
@@ -550,6 +550,9 @@
 			</div>
 		</footer>
 
+		<input type="hidden" id="lang" name="lang" value="{{ strtoupper(app()->getLocale()) }}">
+		<input type="hidden" id="landing-page" name="landing-page" value="teeth-whitening">
+
     <script src="assets/tw/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -563,7 +566,7 @@
 			const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(
 					tooltipTriggerEl));
 
-			const WA_CEPAT_SEHAT = "6285212500030";
+			const WA_CEPAT_SEHAT = "6282211189009";
 
 			$('#btn-wa').click(()=> {
 				let lang = $('#lang').val();
