@@ -63,7 +63,7 @@
                     <p>
 											{{ __('landing.banner.p') }}
                     </p>
-                    <a href="#book" class="btn btn-warning fs-14"> Contact Us </a>
+                    <a href="#book" class="btn btn-warning fs-14"> {{ __('landing.banner.button') }} </a>
                 </div>
             </div>
         </section>
