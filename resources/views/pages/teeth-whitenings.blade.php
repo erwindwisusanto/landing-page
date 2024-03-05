@@ -69,12 +69,28 @@
         </section>
 
         <section class="saygood my-1 my-md-2">
-            <div class="d-block d-md-none">
-                <img src="assets/tw/img/img-saygood.png" class="w-100" alt="">
-            </div>
-            <div class="d-none d-md-block">
-                <img src="assets/tw/img/img-saygood-desktop.png" class="w-100" alt="">
-            </div>
+					<?php
+							$lang = strtoupper(app()->getLocale());
+							if ($lang === "EN") {
+								?>
+								<div class="d-block d-md-none">
+										<img src="assets/tw/img/img-saygood.png" class="w-100" alt="">
+								</div>
+								<div class="d-none d-md-block">
+										<img src="assets/tw/img/img-saygood-desktop.png" class="w-100" alt="">
+								</div>
+								<?php
+							} else if ($lang === "ID") {
+								?>
+								<div class="d-block d-md-none">
+										<img src="assets/teeth-whitening/img/section-2-m-id.svg" class="w-100" alt="">
+								</div>
+								<div class="d-none d-md-block">
+										<img src="assets/teeth-whitening/img/section-2-id.svg" class="w-100" alt="">
+								</div>
+								<?php
+							}
+					?>
         </section>
 
 
@@ -188,7 +204,18 @@
                 <div class="col-12 order-last bg-provide">
                     <div class="row justify-content-center">
                         <div class="col-md-4">
-                            <img src="assets/tw/img/img-providing.png" class="w-100" alt="">
+													<?php
+														$lang = strtoupper(app()->getLocale());
+														if ($lang === "EN") {
+															?>
+																<img src="assets/tw/img/img-providing.png" class="w-100" alt="">
+															<?php
+														} else if ($lang === "ID") {
+															?>
+																<img src="assets/teeth-whitening/img/img-providing-id.png" class="w-100" alt="">
+															<?php
+														}
+													?>
                         </div>
                     </div>
 
