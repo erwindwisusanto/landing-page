@@ -15,17 +15,17 @@
 		</div>
 
 		<section class="py-4 bg-light-blue" id="ozon-theraphy">
-			<div class="container px-4">
+			<div class="container">
 				<div class="row mb-4">
-					<h5 class="fw-6 txt-green-dark">{{ __('ozone.section2.title') }}</h5>
+					<h3 class="fw-6 txt-green-dark">{{ __('ozone.section2.title') }}</h3>
 				</div>
 				<div class="row">
-					<div class="col-6 d-flex justify-content-center align-items-center">
+					<div class="col-6 col-md-5 d-flex justify-content-start">
 						<img src="{{ asset('assets/ozone/img/Website-Headings.svg') }}"
-						class="img-fluid"
+						class="img-fluid img-section-2"
 						alt="infusion">
 					</div>
-					<div class="col-6 d-flex align-items-center" style="text-align: right;">
+					<div class="col-6 col-md-7 d-flex align-items-center" style="text-align: right;">
 						<span class="abu-abu-2 fs-14 tx-res">
 							{{ __('ozone.section2.desc') }}
 						</span>
@@ -40,113 +40,113 @@
 				alt="infusion">
 			<div class="container px-4 py-4" style="position: relative">
 				<div class="row mb-3">
-					<h5 class="txt-green-dark fw-6">{{ __('ozone.section3.title') }}</h5>
+					<h3 class="txt-green-dark fw-6">{{ __('ozone.section3.title') }}</h3>
 				 </div>
 				<div class="row mb-1">
 					<div class="col-1">
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-square txt-green-dark" viewBox="0 0 16 16">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-square txt-green-dark size-ceklis" viewBox="0 0 16 16">
 							<path d="M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5z"/>
 							<path d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0"/>
 						</svg>
 					</div>
 					<div class="col-11">
-						<span class="abu-abu-2 fs-14">{{ __('ozone.section3.span_1') }}</span>
+						<span class="abu-abu-2 fs-14 txt-section-3">{{ __('ozone.section3.span_1') }}</span>
 					</div>
 				</div>
 				<div class="row mb-1">
 					<div class="col-1">
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-square txt-green-dark" viewBox="0 0 16 16">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-square txt-green-dark size-ceklis" viewBox="0 0 16 16">
 							<path d="M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5z"/>
 							<path d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0"/>
 						</svg>
 					</div>
 					<div class="col-11">
-						<span class="abu-abu-2 fs-14">{{ __('ozone.section3.span_2') }}</span>
+						<span class="abu-abu-2 fs-14 txt-section-3">{{ __('ozone.section3.span_2') }}</span>
 					</div>
 				</div><div class="row">
 					<div class="col-1">
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-square txt-green-dark" viewBox="0 0 16 16">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-square txt-green-dark size-ceklis" viewBox="0 0 16 16">
 							<path d="M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5z"/>
 							<path d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0"/>
 						</svg>
 					</div>
 					<div class="col-11">
-						<span class="abu-abu-2 fs-14">{{ __('ozone.section3.span_3') }}</span>
+						<span class="abu-abu-2 fs-14 txt-section-3">{{ __('ozone.section3.span_3') }}</span>
 					</div>
 				</div>
 				<div class="row mb-1">
 					<div class="col-1">
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-square txt-green-dark" viewBox="0 0 16 16">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-square txt-green-dark size-ceklis" viewBox="0 0 16 16">
 							<path d="M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5z"/>
 							<path d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0"/>
 						</svg>
 					</div>
 					<div class="col-11">
-						<span class="abu-abu-2 fs-14">{{ __('ozone.section3.span_4') }}</span>
+						<span class="abu-abu-2 fs-14 txt-section-3">{{ __('ozone.section3.span_4') }}</span>
 					</div>
 				</div>
 				<div class="row mb-1">
 					<div class="col-1">
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-square txt-green-dark" viewBox="0 0 16 16">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-square txt-green-dark size-ceklis" viewBox="0 0 16 16">
 							<path d="M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5z"/>
 							<path d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0"/>
 						</svg>
 					</div>
 					<div class="col-11">
-						<span class="abu-abu-2 fs-14">{{ __('ozone.section3.span_5') }}</span>
+						<span class="abu-abu-2 fs-14 txt-section-3">{{ __('ozone.section3.span_5') }}</span>
 					</div>
 				</div>
 				<div class="row mb-1">
 					<div class="col-1">
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-square txt-green-dark" viewBox="0 0 16 16">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-square txt-green-dark size-ceklis" viewBox="0 0 16 16">
 							<path d="M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5z"/>
 							<path d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0"/>
 						</svg>
 					</div>
 					<div class="col-11">
-						<span class="abu-abu-2 fs-14">{{ __('ozone.section3.span_6') }}</span>
+						<span class="abu-abu-2 fs-14 txt-section-3">{{ __('ozone.section3.span_6') }}</span>
 					</div>
 				</div>
 				<div class="row mb-1">
 					<div class="col-1">
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-square txt-green-dark" viewBox="0 0 16 16">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-square txt-green-dark size-ceklis" viewBox="0 0 16 16">
 							<path d="M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5z"/>
 							<path d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0"/>
 						</svg>
 					</div>
 					<div class="col-11">
-						<span class="abu-abu-2 fs-14">{{ __('ozone.section3.span_7') }}</span>
+						<span class="abu-abu-2 fs-14 txt-section-3">{{ __('ozone.section3.span_7') }}</span>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section class="bg-green-dark pt-4" style="position: relative; overflow: hidden;">
+		<section class="bg-green-dark" style="position: relative; overflow: hidden;">
 			<img src="{{ asset('assets/ozone/img/infus.svg') }}"
 				class="img-fluid bg-image"
 				alt="infusion">
-			<div class="container px-4 py-4" style="position: relative">
+			<div class="container px-4 py-5" style="position: relative">
 				<div class="row mb-3">
-					<h5 class="txt-white fw-6">{{ __('ozone.section4.title') }}</h5>
+					<h3 class="txt-white fw-6">{{ __('ozone.section4.title') }}</h3>
 				 </div>
 				 <div class="row">
 					<div class="col-9">
 						<ul class="uel" style="margin: 0px;">
 							<li class="eli">
-								<span class="txt-green-pastel-2 fw-6 fs-14">{{ __('ozone.section4.span_1') }}</span><br>
-								<span class="txt-white fs-14">
+								<span class="txt-green-pastel-2 txt-section-4">{{ __('ozone.section4.span_1') }}</span><br>
+								<span class="txt-white txt-child-section-4">
 									{{ __('ozone.section4.span_1_desc') }}
 								</span>
 							</li>
 							<li class="eli">
-								<span class="txt-green-pastel-2 fw-6 fs-14">{{ __('ozone.section4.span_2') }}</span><br>
-								<span class="txt-white fs-14">
+								<span class="txt-green-pastel-2 txt-section-4">{{ __('ozone.section4.span_2') }}</span><br>
+								<span class="txt-white fs-14 txt-child-section-4">
 									{{ __('ozone.section4.span_2_desc') }}
 								</span>
 							</li>
 							<li class="el">
-								<span class="txt-green-pastel-2 fw-6 fs-14">{{ __('ozone.section4.span_3') }}</span><br>
-								<span class="txt-white fs-14">
+								<span class="txt-green-pastel-2 txt-section-4">{{ __('ozone.section4.span_3') }}</span><br>
+								<span class="txt-white fs-14 txt-child-section-4">
 									{{ __('ozone.section4.span_3_desc') }}
 								</span>
 							</li>

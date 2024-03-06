@@ -1,5 +1,5 @@
 <nav class="nav nav-top fixed-top">
-	<div class="container mx-auto" style="max-width: 640px;">
+	<div class="container">
 			<div class="d-flex align-items-center">
 					<a href="index.html" class="nav-brand">
 							<img src="{{ asset('assets/ozone/img/logo_cepat_sehat.svg') }}" alt="">
