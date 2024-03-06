@@ -31,7 +31,7 @@
 		{{-- ozone style --}}
 		<link href="{{ asset('assets/ozone/css/ozone.css') }}" rel="stylesheet">
   </head>
-  <body class="mx-auto bg-f7">
+  <body class="bg-f7">
 
     {{ $slot }}
 
