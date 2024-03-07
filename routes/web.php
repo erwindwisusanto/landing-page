@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BNIController;
 use App\Http\Controllers\LandingController;
 use App\Http\Controllers\LanguageController;
 use Illuminate\Support\Facades\Route;
@@ -25,3 +26,8 @@ Route::get('/ozone-theraphy', [LandingController::class, 'ozoneTheraphy'])->name
 Route::get('/ozone-theraphy-procedure', [LandingController::class, 'ozoneTheraphyJakarata'])->name('ozone-jakarta');
 Route::get('/teeth-whitening', [LandingController::class, 'teethWhitening'])->name('tw');
 Route::get('/teeth-whitenings', [LandingController::class, 'teethWhitenings'])->name('tw');
+
+Route::get('/landing1', [LandingController::class, 'landing1'])->name('landing1');
+Route::get('/landing2', [LandingController::class, 'landing2'])->name('landing2');
+Route::get('/landing3', [LandingController::class, 'landing3'])->name('landing3');
+Route::post('/submit', [BNIController::class, 'submit'])->name('submit');
