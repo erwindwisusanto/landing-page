@@ -16,6 +16,7 @@ class BniService
 	}
 
 	public function newRecord($applicant){
-
+		$submit = $this->bniRepository->store($applicant);
+		return $submit;
 	}
 }

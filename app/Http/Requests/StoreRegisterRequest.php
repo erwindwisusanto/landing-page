@@ -13,7 +13,7 @@ class StoreRegisterRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+      return true;
     }
 
     /**
@@ -25,11 +25,11 @@ class StoreRegisterRequest extends FormRequest
     {
 			return [
 				'name' => 'required|string|min:3|max:100',
-				'phone' => 'required|string|min:10|max:14',
+				'phone' => 'required|string|min:10|max:16',
 				'clinic_name' => 'required|string|min:3|max:255',
 				'clinic_address' => 'required|string|min:3|max:255',
-				'operational_license_number' => 'required|string|min:3|max:100',
-				'clinic_fasyankes_code' => 'required|string|min:3|max:30',
+				'operational_license_number' => 'required|string|min:3|max:200',
+				'clinic_fasyankes_code' => 'required|string|min:3|max:200',
 			];
     }
 }

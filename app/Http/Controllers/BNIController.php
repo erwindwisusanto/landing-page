@@ -4,7 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\StoreRegisterRequest;
 use App\Services\BniService;
+use Exception;
 use Illuminate\Http\Request;
+
+use function App\Helpers\statusInternalServerError;
+use function App\Helpers\statusOK;
+use function App\Helpers\statusUnproccessableContent;
 
 class BNIController extends Controller
 {
@@ -18,7 +23,19 @@ class BNIController extends Controller
 	}
 
 	public function submit(StoreRegisterRequest $request) {
-		$applicant = $request->validate();
-		$response = $this->bniService->newRecord($applicant);
+		$request = $request->validate($request->rules());
+
+		if (!$request) {
+			return statusUnproccessableContent('Something Wrong in Validation');
+		}
+
+    try {
+			$service = $this->bniService->newRecord($request);
+			if ($service) {
+				return statusOK('success register', $service);
+			}
+		} catch (Exception $error) {
+			return statusInternalServerError($error->getMessage(), null);
+		}
 	}
 }
