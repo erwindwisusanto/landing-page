@@ -8,7 +8,7 @@
 				<div class="text">
 					<h3 class="">{{ __('ozone.banner.h4') }}</h3>
 					<h3 class="title fw-6 txt-light-blue">{{ __('ozone.banner.h4_2') }}</h3>
-					<p class="fs-14">{{ __('ozone.banner.p') }}</p>
+					<p class="txt-section-3">{{ __('ozone.banner.p') }}</p>
 					<a href="#book" class="btn btn-warning fs-14"> {{ __('ozone.banner.button') }} </a>
 				</div>
 			</div>
@@ -34,7 +34,7 @@
 			</div>
 		</section>
 
-		<section class="bg-white-custom pt-4" style="position: relative; overflow: hidden;">
+		<section class="bg-white-custom" style="position: relative; overflow: hidden;">
 			<img src="{{ asset('assets/ozone/img/plusplus.svg') }}"
 				class="img-fluid bg-image-ct2"
 				alt="infusion">
@@ -50,7 +50,7 @@
 						</svg>
 					</div>
 					<div class="col-11">
-						<span class="abu-abu-2 fs-14 txt-section-3">{{ __('ozone.section3.span_1') }}</span>
+						<span class="abu-abu-2 txt-section-3">{{ __('ozone.section3.span_1') }}</span>
 					</div>
 				</div>
 				<div class="row mb-1">
@@ -61,7 +61,7 @@
 						</svg>
 					</div>
 					<div class="col-11">
-						<span class="abu-abu-2 fs-14 txt-section-3">{{ __('ozone.section3.span_2') }}</span>
+						<span class="abu-abu-2 txt-section-3">{{ __('ozone.section3.span_2') }}</span>
 					</div>
 				</div><div class="row">
 					<div class="col-1">
@@ -71,7 +71,7 @@
 						</svg>
 					</div>
 					<div class="col-11">
-						<span class="abu-abu-2 fs-14 txt-section-3">{{ __('ozone.section3.span_3') }}</span>
+						<span class="abu-abu-2 txt-section-3">{{ __('ozone.section3.span_3') }}</span>
 					</div>
 				</div>
 				<div class="row mb-1">
@@ -82,7 +82,7 @@
 						</svg>
 					</div>
 					<div class="col-11">
-						<span class="abu-abu-2 fs-14 txt-section-3">{{ __('ozone.section3.span_4') }}</span>
+						<span class="abu-abu-2 txt-section-3">{{ __('ozone.section3.span_4') }}</span>
 					</div>
 				</div>
 				<div class="row mb-1">
@@ -93,7 +93,7 @@
 						</svg>
 					</div>
 					<div class="col-11">
-						<span class="abu-abu-2 fs-14 txt-section-3">{{ __('ozone.section3.span_5') }}</span>
+						<span class="abu-abu-2 txt-section-3">{{ __('ozone.section3.span_5') }}</span>
 					</div>
 				</div>
 				<div class="row mb-1">
@@ -104,7 +104,7 @@
 						</svg>
 					</div>
 					<div class="col-11">
-						<span class="abu-abu-2 fs-14 txt-section-3">{{ __('ozone.section3.span_6') }}</span>
+						<span class="abu-abu-2 txt-section-3">{{ __('ozone.section3.span_6') }}</span>
 					</div>
 				</div>
 				<div class="row mb-1">
@@ -115,7 +115,7 @@
 						</svg>
 					</div>
 					<div class="col-11">
-						<span class="abu-abu-2 fs-14 txt-section-3">{{ __('ozone.section3.span_7') }}</span>
+						<span class="abu-abu-2 txt-section-3">{{ __('ozone.section3.span_7') }}</span>
 					</div>
 				</div>
 			</div>
@@ -125,7 +125,7 @@
 			<img src="{{ asset('assets/ozone/img/infus.svg') }}"
 				class="img-fluid bg-image"
 				alt="infusion">
-			<div class="container px-4 py-5" style="position: relative">
+			<div class="container px-4 py-4" style="position: relative">
 				<div class="row mb-3">
 					<h3 class="txt-white fw-6">{{ __('ozone.section4.title') }}</h3>
 				 </div>
@@ -168,7 +168,7 @@
 		<section class="pt-4 bg-light-blue" id="why-choose-us">
 			<div class="container px-4">
 				 <div class="row mb-3">
-					<h5 class="txt-green-dark fw-6">{{ __('ozone.section5.title') }}</h5>
+					<h3 class="txt-green-dark fw-6">{{ __('ozone.section5.title') }}</h3>
 				 </div>
 				<div class="row mb-3">
 					<div class="col-1" style="width: 60px;">
@@ -306,7 +306,7 @@
 
 		<section class="potential py-4 bg-light-blue">
 			<div class="container">
-				<h3 class="title-section pb-2" style="color: var(--abu-abu)">
+				<h3 class="title-section pb-2" style="color: var(--txt-green-dark)">
 					{{__('ozone.section7.title')}} <br> {{__('ozone.section7.title_2')}}
 				</h3>
 				<div class="row justify-content-center mb-4">
@@ -348,6 +348,22 @@
 										</div>
 									</a>
 					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-4 bg-light-blue">
+			<div class="container px-4">
+				<h3 class="title-section" style="text-align: center; color: var(--txt-green-dark);">
+					{{ __('ozone.ozoneProcedure.title_section_2') }}
+				</h3>
+				<div class="d-block mx-auto">
+					<img src="{{ asset('assets/ozone/img/group-procedure.svg') }}"
+						class="img-fluid"
+						alt="Modern Facilities"
+						width="100%"
+						style="height: 1150px;"
+						>
 				</div>
 			</div>
 		</section>
