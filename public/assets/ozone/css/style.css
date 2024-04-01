@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,700&display=swap);
 
+:root {
+	--fs-mobile-lg: 18px;
+	--fs-mobile-md: 16px;
+	--fs-mobile-sm: 14px;
+}
+
 .button-menu,
 a {
 	text-decoration: none
@@ -11,6 +17,24 @@ section.banner-pages p,
 section.why .list-why,
 section.why h3 {
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, .1)
+}
+
+.bg-image,
+.bg-image-ct2 {
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.bg-image {
+  top: 50px;
+  right: 0px;
+  height: auto;
+}
+
+.bg-image-ct2 {
+	top: 50px;
+	right: 0px;
 }
 
 .btn {
@@ -349,7 +373,7 @@ section.service {
 
 .hero-banner {
 	background: url("../img/BANNER-1.svg");
-	background-position: center;
+	background-position: right;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -357,7 +381,7 @@ section.service {
 }
 
 .hero-banner .text {
-	width: 65%;
+	width: 60%;
 	color: #fff
 }
 
@@ -625,6 +649,10 @@ section.why .img-bg {
 }
 
 @media (max-width:767.98px) {
+	.hero-banner {
+		aspect-ratio: 644/400;
+	}
+
 	section .title-flex p {
 		font-size: 18px
 	}
@@ -652,6 +680,19 @@ section.why .img-bg {
 	section.why .img-bg {
 		right: -180px
 	}
+
+	.txt-section-3 {
+		font-size: var(--fs-mobile-md) !important;
+	}
+
+	.txt-section-4 {
+		font-size: var(--fs-mobile-md) !important;
+	}
+
+	.size-ceklis {
+		width: 23px !important;
+		height: 23px !important;
+	}
 }
 
 section.banner-pages {
@@ -674,6 +715,9 @@ section.banner-pages.homepage {
 }
 
 @media (min-width:992px) {
+	.hero-banner {
+		aspect-ratio: 644/400;
+	}
 
 	section.banner-pages.homepage .text b,
 	section.banner-pages.homepage .text p,
@@ -691,6 +735,15 @@ section.banner-pages.homepage {
 
 	section.banner-pages.homepage .text {
 		width: 50%
+	}
+
+	.txt-section-3 {
+		font-size: var(--fs-mobile-lg) !important;
+	}
+
+	.size-ceklis {
+		width: 25px !important;
+		height: 25px !important;
 	}
 }
 
@@ -730,10 +783,6 @@ section.banner-pages p b {
 }
 
 @media (max-width:991.98px) {
-	.hero-banner {
-		height: 45vh
-	}
-
 	section.why {
 		height: 100vh
 	}
@@ -746,6 +795,18 @@ section.banner-pages p b {
 	section.banner-pages .img-bg {
 		right: -100px
 	}
+	.txt-section-3 {
+		font-size: var(--fs-mobile-md) !important;
+	}
+
+	.txt-section-4 {
+		font-size: var(--fs-mobile-md) !important;
+	}
+
+	.size-ceklis {
+		width: 23px !important;
+		height: 23px !important;
+	}
 }
 
 @media (max-width:767.98px) {
@@ -756,10 +817,6 @@ section.banner-pages p b {
 		width: 100%;
 		aspect-ratio: 414/260;
 		align-items: start
-	}
-
-	.hero-banner {
-		height: 50vh !important;
 	}
 
 	section.banner-pages.homepage .text {
@@ -1062,14 +1119,13 @@ section.question .img-question img {
 	font-size: 28px !important
 }
 
-@media (max-width:575.98px) {
+@media (min-width: 320px) and (max-width: 480px) {
 	.hero-banner {
 		aspect-ratio: 414/284;
-		height: 235px !important;
 	}
 
 	.hero-banner .text .title {
-		font-size: 18px
+		font-size: 22px
 	}
 
 	.hero-banner .text .desc,
@@ -1188,6 +1244,19 @@ section.question .img-question img {
 
 	.swiper-article .swiper-slide .card-slide-article .name-article {
 		min-height: 240px
+	}
+
+	.txt-section-3 {
+		font-size: var(--fs-mobile-md) !important;
+	}
+
+	.txt-section-4 {
+		font-size: var(--fs-mobile-md) !important;
+	}
+
+	.size-ceklis {
+		width: 23px !important;
+		height: 23px !important;
 	}
 }
 
@@ -1384,13 +1453,12 @@ section.question .img-question img {
 	margin-bottom: 24px
 }
 
-@media (min-width:992px) {
 
+@media (min-width:992px) {
 	.list-benefits .items-benefits h5,
 	.list-benefits .items-benefits p {
 		font-size: 16px
 	}
-
 	.our-teeth h5,
 	.our-teeth p {
 		font-size: 24px
@@ -1412,7 +1480,26 @@ section.question .img-question img {
 	padding: 32px 0
 }
 
+@media (max-width:991px) {
+	.hero-banner {
+		aspect-ratio: 644/400;
+	}
+
+	.txt-section-3 {
+		font-size: var(--fs-mobile-lg) !important;
+	}
+
+	.size-ceklis {
+		width: 28px !important;
+		height: 28px !important;
+	}
+}
+
 @media (max-width:767.98px) {
+	.hero-banner {
+		aspect-ratio: 644/400;
+	}
+
 	.card-slide-testimoni {
 		min-height: 320px
 	}
@@ -1425,5 +1512,18 @@ section.question .img-question img {
 	.bg-provide {
 		background: #fff;
 		padding: 0
+	}
+
+	.txt-section-3 {
+		font-size: var(--fs-mobile-md) !important;
+	}
+
+	.txt-section-4 {
+		font-size: var(--fs-mobile-md) !important;
+	}
+
+	.size-ceklis {
+		width: 23px !important;
+		height: 23px !important;
 	}
 }
