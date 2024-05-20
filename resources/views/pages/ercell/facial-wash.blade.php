@@ -190,7 +190,7 @@
 	<div class="btn-float" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Consult with Our Medical Team"
 		data-bs-custom-class="custom-tooltip">
 		<div class="btn-circle whatsapp">
-			<a href="https://api.whatsapp.com/send/?phone=6282211189009&amp;text&amp;type=phone_number&amp;app_absent=0"
+			<a href="https://api.whatsapp.com/send/?phone=6285212500030&amp;text&amp;type=phone_number&amp;app_absent=0"
 				class="text-white">
 				<i class="fs-24 fa-brands fa-whatsapp"></i>
 			</a>
