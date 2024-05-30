@@ -27,7 +27,7 @@
 	<nav class="nav nav-top fixed-top">
 		<div class="container">
 			<div class="d-flex align-items-center">
-				<a href="https://fe.r3ste.mobi/skin-care/index.html" class="nav-brand">
+				<a href="{{ route('index_ercell') }}" class="nav-brand">
 					<img src="{{ asset('assets/ercell/assets/img/logo.png') }}" alt="">
 				</a>
 				<div class="btn-group ms-auto">
@@ -109,7 +109,7 @@
 		<section class="book" id="book">
 			<div class="container">
 				<h3 class="title-section text-black"> Kontak Kami </h3>
-				<form action="https://fe.r3ste.mobi/skin-care/index.html#">
+				<form action="">
 					<div class="row mb-3 g-3">
 						<div class="col-md-4">
 							<label for="" class="form-label">Nama Lengkap</label>
@@ -159,11 +159,11 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="d-flex align-items-center">
-						<a href="https://fe.r3ste.mobi/skin-care/index.html">
+						<a href="{{ route('index_ercell') }}">
 							<img src="{{ asset('assets/ercell/assets/img/logo-white.png') }}" class="logo" alt="">
 						</a>
 						<div class="sosmed list-inline ms-auto">
-							<a href="https://fe.r3ste.mobi/skin-care/index.html#" class="list-inline-item text-white">
+							<a href="{{ route('index_ercell') }}" class="list-inline-item text-white">
 								<i class="mdi mdi-web fs-24"></i>
 							</a>
 							<a href="https://www.facebook.com/klinikcepatsehat" class="list-inline-item text-white">
