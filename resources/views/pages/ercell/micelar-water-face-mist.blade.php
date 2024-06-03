@@ -69,6 +69,9 @@
 									<h5 class="name">
 										Micellar Water
 									</h5>
+									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+										<span class="price"><strong>Rp. 89.000</strong></span>
+									</div>
 									<ul>
 										<li>
 											Mengangkat kotoran, debu serta sisa make up pada kulit wajah
@@ -94,7 +97,7 @@
 									<div class="d-flex align-items-end justify-content-between">
 										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
 										<span class="status">
-											20 ml
+											100 ml
 										</span>
 									</div>
 								</div>
@@ -108,6 +111,9 @@
 									<h5 class="name">
 										Refreshing Face Mist
 									</h5>
+									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+										<span class="price"><strong>Rp. 65.500</strong></span>
+									</div>
 									<ul>
 										<li>
 											Manfaatnya melembabkan & menyegarkan kulit
@@ -133,7 +139,7 @@
 									<div class="d-flex align-items-end justify-content-between">
 										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
 										<span class="status">
-											20 ml
+											60 ml
 										</span>
 									</div>
 								</div>

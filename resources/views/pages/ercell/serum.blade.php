@@ -68,6 +68,9 @@
 									<h5 class="name">
 										Ultimate Acne Brightening Serum
 									</h5>
+									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+										<span class="price"><strong>Rp. 42.500</strong></span>
+									</div>
 									<ul>
 										<li>
 											Serum wajah untuk mengatasi jerawat pada kulit wajah.
@@ -107,6 +110,9 @@
 									<h5 class="name">
 										DNA Anti Aging Serum
 									</h5>
+									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+										<span class="price"><strong>Rp. 65.000</strong></span>
+									</div>
 									<ul>
 										<li>
 											Kandungan Fish Collagen & DNA Salmon
@@ -150,6 +156,9 @@
 									<h5 class="name">
 										Serum 3 in 1
 									</h5>
+									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+										<span class="price"><strong>Rp. 183.000</strong></span>
+									</div>
 									<ul>
 										<li>
 											Membuat kulit lebih cerah & glowing <b> (Brightening) </b>
