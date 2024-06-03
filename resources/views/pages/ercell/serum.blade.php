@@ -56,7 +56,7 @@
 					</p>
 				</div>
 			</div>
-			<img src="{{ asset('assets/ercell/assets/img/BPOM.png') }}" alt="Rounded Image" class="top-right-image">
+			{{-- <img src="{{ asset('assets/ercell/assets/img/BPOM.png') }}" alt="Rounded Image" class="top-right-image"> --}}
 		</section>
 
 		<section class="product-list">
