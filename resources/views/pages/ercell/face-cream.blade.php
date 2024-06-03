@@ -67,8 +67,11 @@
 							<div class="col-7">
 								<div class="detail bg-soft">
 									<h5 class="name">
-										Brightening Cream
+										Brightening UV Cream
 									</h5>
+									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+										<span class="price"><strong>Rp. 64.000</strong></span>
+									</div>
 									<ul>
 										<li>
 											Mencegah kulit dari bahaya paparan sinar UV
@@ -94,7 +97,7 @@
 									<div class="d-flex align-items-end justify-content-between">
 										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
 										<span class="status">
-											20 ml
+											10 gr
 										</span>
 									</div>
 								</div>
@@ -108,6 +111,9 @@
 									<h5 class="name">
 										Brightening Night Cream
 									</h5>
+									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+										<span class="price"><strong>Rp. 64.000</strong></span>
+									</div>
 									<ul>
 										<li>
 											Menjaga kulit dari bahaya paparan sinar UV
@@ -133,7 +139,7 @@
 									<div class="d-flex align-items-end justify-content-between">
 										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
 										<span class="status">
-											20 ml
+											10 gr
 										</span>
 									</div>
 								</div>
@@ -147,6 +153,9 @@
 									<h5 class="name">
 										Glutathione Day Cream With Vitamin F
 									</h5>
+									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+										<span class="price"><strong>Rp. 40.000</strong></span>
+									</div>
 									<ul>
 										<li>
 											Menjaga kulit sepanjang malam sehingga kulit lebih halus, lembut & kenyal
@@ -173,7 +182,7 @@
 									<div class="d-flex align-items-end justify-content-between">
 										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
 										<span class="status">
-											20 ml
+											15 gr
 										</span>
 									</div>
 								</div>
@@ -187,6 +196,9 @@
 									<h5 class="name">
 										Glutathione Night Cream With Vitamin B5
 									</h5>
+									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+										<span class="price"><strong>Rp. 40.000</strong></span>
+									</div>
 									<ul>
 										<li>
 											Menjaga kelembapan pada kulit sepanjang malam sehingga kulit terasa lebih
@@ -210,7 +222,7 @@
 									<div class="d-flex align-items-end justify-content-between">
 										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
 										<span class="status">
-											20 ml
+											15 gr
 										</span>
 									</div>
 								</div>
@@ -224,6 +236,9 @@
 									<h5 class="name">
 										Sunflower Moisturizer Soothing Gel
 									</h5>
+									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+										<span class="price"><strong>Rp. 40.000</strong></span>
+									</div>
 									<ul>
 										<li>
 											Menenangkan, melembabkan & menghidrasi kulit kering
@@ -255,7 +270,7 @@
 									<div class="d-flex align-items-end justify-content-between">
 										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
 										<span class="status">
-											20 ml
+											10 gr
 										</span>
 									</div>
 								</div>

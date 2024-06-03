@@ -69,6 +69,9 @@
 									<h5 class="name">
 										Acne Lotion
 									</h5>
+									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+										<span class="price"><strong>Rp. 40.000</strong></span>
+									</div>
 									<ul>
 										<li>
 											Berfungsi mengatasi jerawat

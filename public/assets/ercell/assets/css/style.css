@@ -1316,3 +1316,68 @@ section.book {
 .nav-content .breadcrumb a {
 	color: #F05900
 }
+.detail {
+	position: relative;
+	padding-right: 5rem; /* Add some padding to the right to make space for the price */
+}
+
+.detail .price {
+	position: absolute;
+	top: 0rem;
+	right: 0;
+	background-color: #F7931D ;
+	color: white;
+	font-weight: bold;
+	text-align: right;
+	padding: 0.5rem 2.5rem;
+	font-size: 0.875rem;
+	overflow: hidden;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+}
+
+.detail .price::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -0.625rem; /* Adjust this value for triangle position */
+	transform: translateY(-50%);
+	border-top: 0.625rem solid transparent;
+	border-bottom: 0.625rem solid transparent;
+	border-right: 0.625rem solid #F7931D;
+}
+
+.detail .price::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -0.25rem; /* Adjust this value for line position */
+	bottom: 0;
+	width: 0.35rem;
+	background-color: #F7931D;
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+	.detail {
+			padding-right: 2.5rem; /* Adjust padding for mobile view */
+	}
+
+	.detail .price {
+			font-size: 0.75rem; /* Adjust font size for mobile view */
+			padding: 0.5rem; /* Adjust padding for mobile view */
+			width: 7rem;
+	}
+
+	.detail .price::before {
+			left: -0.5rem; /* Adjust triangle position for mobile view */
+			border-top: 0.5rem solid transparent;
+			border-bottom: 0.5rem solid transparent;
+			border-right: 0.5rem solid #F7931D;
+	}
+
+	.detail .price::after {
+			right: -0.2rem; /* Adjust line position for mobile view */
+			width: 0.2rem;
+	}
+}
+

@@ -69,6 +69,9 @@
 									<h5 class="name">
 										Brightening Facial Wash
 									</h5>
+									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+										<span class="price"><strong>Rp. 75.000</strong></span>
+									</div>
 									<ul>
 										<li>
 											Sabun pembersih wajah di formulasikan mencerahkan kulit wajah
@@ -100,7 +103,7 @@
 									<div class="d-flex align-items-end justify-content-between">
 										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
 										<span class="status">
-											20 ml
+											100 ml
 										</span>
 									</div>
 								</div>
@@ -114,6 +117,9 @@
 									<h5 class="name">
 										Mulberry Facial Wash with Matsutake Extract
 									</h5>
+									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+										<span class="price"><strong>Rp. 45.000</strong></span>
+									</div>
 									<ul>
 										<li>
 											Sabun pembersih wajah diformulasikan mencerahkan kulit wajah
@@ -142,7 +148,7 @@
 									<div class="d-flex align-items-end justify-content-between">
 										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
 										<span class="status">
-											20 ml
+											100 ml
 										</span>
 									</div>
 								</div>

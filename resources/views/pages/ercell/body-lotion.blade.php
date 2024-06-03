@@ -70,6 +70,9 @@
 										Glow and Bright
 										Body Lotion
 									</h5>
+									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+										<span class="price"><strong>Rp. 98.000</strong></span>
+									</div>
 									<ul>
 										<li>
 											Mencegah kulit dari bahaya paparan sinar UV
@@ -102,7 +105,7 @@
 									<div class="d-flex align-items-end justify-content-between">
 										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
 										<span class="status">
-											20 ml
+											100 ml
 										</span>
 									</div>
 								</div>
