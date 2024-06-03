@@ -30,7 +30,7 @@
 				<a href="{{ route('index_ercell') }}" class="nav-brand">
 					<img src="{{ asset('assets/ercell/assets/img/logo.png') }}" alt="">
 				</a>
-				<div class="btn-group ms-auto">
+				{{-- <div class="btn-group ms-auto">
 					<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
 						aria-expanded="false">
 						<i class="mdi mdi-earth me-2"></i> IND
@@ -39,7 +39,7 @@
 						<li><button class="dropdown-item" type="button">English</button></li>
 						<li><button class="dropdown-item" type="button">Indonesia</button></li>
 					</ul>
-				</div>
+				</div> --}}
 			</div>
 		</div>
 	</nav>
@@ -54,7 +54,7 @@
 						Solusi perawatan kulit alami yang memadukan keajaiban botani untuk kulit yang lebih sehat dan
 						bersinar.
 					</p>
-					<a href="{{ route('index_ercell') }}book" class="btn btn-whatsapp"> <i
+					<a href="#book" class="btn btn-whatsapp"> <i
 							class="mdi mdi-whatsapp me-2"></i> Konsultasi
 						Dokter</a>
 				</div>
@@ -199,16 +199,14 @@
 								</div>
 							</div>
 							<p class="desc mt-3">
-								"Saya tidak bisa percaya betapa cepatnya rangkaian Glutathione Cream dari ERCell telah
-								mengubah kulit saya! Bintik gelap dan tekstur yang tidak rata memudar, dan warna kulit
-								saya terlihat lebih cerah dan bersinar. Sangat direkomendasikan!"
+								"Sebagai seseorang dengan kulit sensitif, saya senang menemukan Sunflower Moisturizer Soothing Gel dari ERCell. Ini lembut namun efektif, membuat kulit saya terasa segar dan segar setiap kalimenggunakannya."
 							</p>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="card-testi">
 							<div class="d-flex align-items-center">
-								<img src="{{ asset('assets/ercell/assets/img/avatar/img-ava02.png') }}" class="img-ava" alt="">
+								<img src="{{ asset('assets/ercell/assets/img/avatar/img-ava03.png') }}" class="img-ava" alt="">
 								<div class="name">
 									<h6 class="fw-bold mb-0">Sulis Susanti</h6>
 									<p class="mb-0 text-primary fs-18">
@@ -238,24 +236,24 @@
 					<div class="row mb-3 g-3">
 						<div class="col-md-4">
 							<label for="" class="form-label">Nama Lengkap</label>
-							<input type="text" class="form-control" id="" placeholder="Masukkan nama">
+							<input type="text" class="form-control" id="nama" id="nama" placeholder="Masukkan nama">
 						</div>
 						<div class="col-md-4">
 							<label for="" class="form-label">Alamat</label>
-							<input type="text" class="form-control" id="" placeholder="Masukkan alamat">
+							<input type="text" class="form-control" name="alamat" id="alamat" placeholder="Masukkan alamat">
 						</div>
 						<div class="col-md-4">
 							<label for="" class="form-label">Nomor Whatsapp</label>
-							<input type="text" class="form-control" id="" placeholder="Masukkan nomor whatsapp">
+							<input type="text" class="form-control" name="wa" id="wa" placeholder="Masukkan nomor whatsapp">
 						</div>
 						<div class="col-md-12">
 							<label for="" class="form-label">Keluhan</label>
-							<textarea class="form-control" name="" id="" rows="4" placeholder="Tulis keluhan disini ..."></textarea>
+							<textarea class="form-control" name="keluhan" id="keluhan" rows="4" placeholder="Tulis keluhan disini ..."></textarea>
 						</div>
 					</div>
 					<div class="row g-3 justify-content-center">
 						<div class="col-md-12">
-							<button type="submit" class="btn btn-whatsapp w-100"><i class="mdi mdi-whatsapp fs-18 me-2"></i>
+							<button type="submit" class="btn btn-whatsapp w-100" id="btn-wa"><i class="mdi mdi-whatsapp fs-18 me-2"></i>
 								Pesan Sekarang</button>
 						</div>
 					</div>
@@ -273,7 +271,7 @@
 			</a>
 		</div>
 		<div class="btn-circle telegram">
-			<a href="https://t.me/unbanking" class="text-white">
+			<a href="https://t.me/cepat_sehat" class="text-white">
 				<i class="fs-24 fa-brands fa-telegram"></i>
 			</a>
 		</div>
@@ -288,13 +286,13 @@
 							<img src="{{ asset('assets/ercell/assets/img/logo-white.png') }}" class="logo" alt="">
 						</a>
 						<div class="sosmed list-inline ms-auto">
-							<a href="{{ route('index_ercell') }}" class="list-inline-item text-white">
+							{{-- <a href="{{ route('index_ercell') }}" class="list-inline-item text-white">
 								<i class="mdi mdi-web fs-24"></i>
-							</a>
-							<a href="https://www.facebook.com/klinikcepatsehat" class="list-inline-item text-white">
+							</a> --}}
+							<a class="list-inline-item text-white">
 								<i class="mdi mdi-facebook fs-24"></i>
 							</a>
-							<a href="https://www.instagram.com/sehatcepat.mobi/" class="list-inline-item text-white">
+							<a class="list-inline-item text-white">
 								<i class="mdi mdi-instagram fs-24"></i>
 							</a>
 						</div>
@@ -316,6 +314,21 @@
 		const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(
 			tooltipTriggerEl));
 
+		$('#btn-wa').click(()=> {
+			let name = $('#nama').val();
+			let alamat = $('#alamat').val();
+			let wa = $('#wa').val();
+			let keluhan = $('#keluhan').val();
+			let formatMessage = `Hallo ERCell, saya ingin konsultasi\n\nNama: ${name}\nAlamat: ${alamat}\nWa: ${wa}\nKeluhan: ${keluhan}`;
+
+			if (name.length < 3 || alamat.length < 3 || wa.length < 3 || keluhan.length < 3) {
+				alert('please fill form with correctly');
+				return;
+			}
+
+			window.open(`https://api.whatsapp.com/send/?phone=6285212500030&text=${encodeURIComponent(formatMessage)}`);
+		});
+
 		$(document).ready(function () {
 			$('.hero-banner').find('a').click(function () {
 				var $href = $(this).attr('href');
@@ -323,7 +336,7 @@
 				var offsetValue = 100;
 				$('html, body').animate({
 					scrollTop: $anchor.top - offsetValue
-				}, 1000); // added duration for smooth scrolling
+				}, 1000);
 				return false;
 			});
 		});
