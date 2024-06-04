@@ -104,7 +104,7 @@
 										<img src="{{ asset('assets/ercell/assets/img/product/product-bodylotion.png') }}" alt="" class="img-product">
 									</div>
 									<div class="d-flex align-items-end justify-content-between">
-										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
+										<img src="{{ asset('assets/ercell/assets/img/product/Glow and Bright Body Lotion_60 ml.png') }}" class="code" alt="">
 										<span class="status">
 											100 ml
 										</span>
