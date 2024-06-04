@@ -102,7 +102,7 @@
 										<img src="{{ asset('assets/ercell/assets/img/product/product-facialwash01.png') }}" alt="" class="img-product">
 									</div>
 									<div class="d-flex align-items-end justify-content-between">
-										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
+										<img src="{{ asset('assets/ercell/assets/img/product/Brightening Facial Wash_100 ml.png') }}" class="code" alt="">
 										<span class="status">
 											100 ml
 										</span>
@@ -147,7 +147,7 @@
 										<img src="{{ asset('assets/ercell/assets/img/product/product-facialwash02.png') }}" alt="" class="img-product">
 									</div>
 									<div class="d-flex align-items-end justify-content-between">
-										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
+										<img src="{{ asset('assets/ercell/assets/img/product/Mulberry Facial Wash_100 ml.png') }}" class="code" alt="">
 										<span class="status">
 											100 ml
 										</span>

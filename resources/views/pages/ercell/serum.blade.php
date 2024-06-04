@@ -95,7 +95,7 @@
 										<img src="{{ asset('assets/ercell/assets/img/product/product-ultimateAcne.png') }}" alt="" class="img-product">
 									</div>
 									<div class="d-flex align-items-end justify-content-between">
-										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
+										<img src="{{ asset('assets/ercell/assets/img/product/Ultimate Acne Brightening Serum_20 ml.png') }}" class="code" alt="">
 										<span class="status">
 											20 ml
 										</span>
@@ -141,7 +141,7 @@
 										<img src="{{ asset('assets/ercell/assets/img/product/product-dnaAnti.png') }}" alt="" class="img-product">
 									</div>
 									<div class="d-flex align-items-end justify-content-between">
-										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
+										<img src="{{ asset('assets/ercell/assets/img/product/DNA Anti Aging Serum_20 ml.png') }}" class="code" alt="">
 										<span class="status">
 											20 ml
 										</span>

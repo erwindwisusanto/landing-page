@@ -96,7 +96,7 @@
 										<img src="{{ asset('assets/ercell/assets/img/product/product-faceCream01.png') }}" alt="" class="img-product">
 									</div>
 									<div class="d-flex align-items-end justify-content-between">
-										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
+										<img src="{{ asset('assets/ercell/assets/img/product/Brightening UV Cream_10 gr.png') }}" class="code" alt="">
 										<span class="status">
 											10 gr
 										</span>
@@ -138,7 +138,7 @@
 										<img src="{{ asset('assets/ercell/assets/img/product/product-faceCream02.png') }}" alt="" class="img-product">
 									</div>
 									<div class="d-flex align-items-end justify-content-between">
-										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
+										<img src="{{ asset('assets/ercell/assets/img/product/Brightening Night Cream_10 gr.png') }}" class="code" alt="">
 										<span class="status">
 											10 gr
 										</span>
@@ -181,7 +181,7 @@
 										<img src="{{ asset('assets/ercell/assets/img/product/product-faceCream03.png') }}" alt="" class="img-product">
 									</div>
 									<div class="d-flex align-items-end justify-content-between">
-										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
+										<img src="{{ asset('assets/ercell/assets/img/product/Glutathione Day Cream With Vitamin F_15 gr.png') }}" class="code" alt="">
 										<span class="status">
 											15 gr
 										</span>
@@ -221,7 +221,7 @@
 										<img src="{{ asset('assets/ercell/assets/img/product/product-faceCream04.png') }}" alt="" class="img-product">
 									</div>
 									<div class="d-flex align-items-end justify-content-between">
-										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
+										<img src="{{ asset('assets/ercell/assets/img/product/Glutathione Night Cream With Vitamin B5_15 gr.png') }}" class="code" alt="">
 										<span class="status">
 											15 gr
 										</span>
@@ -269,7 +269,7 @@
 										<img src="{{ asset('assets/ercell/assets/img/product/product-faceCream05.png') }}" alt="" class="img-product">
 									</div>
 									<div class="d-flex align-items-end justify-content-between">
-										<img src="{{ asset('assets/ercell/assets/img/product/qrCode.png') }}" class="code" alt="">
+										<img src="{{ asset('assets/ercell/assets/img/product/Sunflower Moisturizer Soothing Gel_30 gr.png') }}" class="code" alt="">
 										<span class="status">
 											10 gr
 										</span>
