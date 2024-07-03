@@ -1323,11 +1323,11 @@ section.book {
 
 .detail .price {
 	position: absolute;
-	top: 0rem;
+	top: -0.1rem;
 	right: 0;
 	background-color: #F7931D ;
 	color: white;
-	font-weight: bold;
+	/* font-weight: bold; */
 	text-align: right;
 	padding: 0.5rem 2.5rem;
 	font-size: 0.875rem;
@@ -1356,16 +1356,11 @@ section.book {
 	background-color: #F7931D;
 }
 
-/* Media query for mobile view */
-@media (max-width: 768px) {
-	.detail {
-			padding-right: 2.5rem; /* Adjust padding for mobile view */
-	}
-
+@media (max-width: 575.98px) {
 	.detail .price {
 			font-size: 0.75rem; /* Adjust font size for mobile view */
 			padding: 0.5rem; /* Adjust padding for mobile view */
-			width: 7rem;
+			width: 14.5rem;
 	}
 
 	.detail .price::before {
@@ -1378,6 +1373,80 @@ section.book {
 	.detail .price::after {
 			right: -0.2rem; /* Adjust line position for mobile view */
 			width: 0.2rem;
+	}
+}
+
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+	.detail .price {
+			font-size: 0.75rem; /* Adjust font size for mobile view */
+			padding: 0.5rem; /* Adjust padding for mobile view */
+			width: 14.5rem;
+	}
+
+	.detail .price::before {
+			left: -0.5rem; /* Adjust triangle position for mobile view */
+			border-top: 0.5rem solid transparent;
+			border-bottom: 0.5rem solid transparent;
+			border-right: 0.5rem solid #F7931D;
+	}
+
+	.detail .price::after {
+			right: -0.2rem; /* Adjust line position for mobile view */
+			width: 0.2rem;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.detail .price {
+			font-size: 0.75rem; /* Adjust font size for mobile view */
+			padding: 0.5rem; /* Adjust padding for mobile view */
+			width: 10rem;
+	}
+
+	.detail .price::before {
+			left: -0.5rem; /* Adjust triangle position for mobile view */
+			border-top: 0.5rem solid transparent;
+			border-bottom: 0.5rem solid transparent;
+			border-right: 0.5rem solid #F7931D;
+	}
+
+	.detail .price::after {
+			right: -0.2rem; /* Adjust line position for mobile view */
+			width: 0.2rem;
+	}
+
+	.tag-disc {
+    color: red;
+    margin-right: 5px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    font-size: 15px;
+    background: red;
+    padding: 5px;
+    color: white;
+		border-top-right-radius: 10px;
+		margin-right: 0px;
+	}
+}
+
+@media (min-width: 991.98px) {
+	.tag-disc {
+    color: red;
+    margin-right: 5px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    font-size: 15px;
+    background: red;
+    padding: 5px;
+    color: white;
+		border-top-right-radius: 10px;
+		margin-right: 0px;
 	}
 }
 
@@ -1396,3 +1465,16 @@ section.book {
 	border: 2px solid white; /* Optional: Add a border around the image */
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }
+
+/* .tag-disc {
+	color: red;
+	margin-right: 5px;
+	position: absolute;
+	top: 52px;
+	right: 196px;
+	z-index: 100;
+	font-size: 15px;
+	background: pink;
+	padding: 5px;
+	border-radius: 10009px;
+} */

@@ -154,8 +154,14 @@
 									<h5 class="name">
 										Glutathione Day Cream With Vitamin F
 									</h5>
-									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
-										<span class="price"><strong>Rp. 40.000</strong></span>
+									<div class="text-right" style="text-align: right;">
+										<i class="fas fa-tag tag-disc float-right">25%</i>
+										<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+												<span class="price">
+														<s style="font-size: 10px; font-weight: normal; position: relative; top: -6px;">Rp. 66.300</s>&nbsp;
+														<strong>Rp. 49.750</strong>
+												</span>
+										</div>
 									</div>
 									<ul>
 										<li>
@@ -197,8 +203,14 @@
 									<h5 class="name">
 										Glutathione Night Cream With Vitamin B5
 									</h5>
-									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
-										<span class="price"><strong>Rp. 40.000</strong></span>
+									<div class="text-right" style="text-align: right;">
+										<i class="fas fa-tag tag-disc float-right">25%</i>
+										<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+												<span class="price">
+														<s style="font-size: 10px; font-weight: normal; position: relative; top: -6px;">Rp. 66.300</s>&nbsp;
+														<strong>Rp. 49.750</strong>
+												</span>
+										</div>
 									</div>
 									<ul>
 										<li>
