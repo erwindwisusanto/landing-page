@@ -70,8 +70,17 @@
 									<h5 class="name">
 										Micellar Water
 									</h5>
-									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+									{{-- <div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
 										<span class="price"><strong>Rp. 89.000</strong></span>
+									</div> --}}
+									<div class="text-right" style="text-align: right;">
+										<i class="fas fa-tag tag-disc float-right">25%</i>
+										<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+												<span class="price">
+														<s style="font-size: 10px; font-weight: normal; position: relative; top: -6px;">Rp. 115.700</s>&nbsp;
+														<strong>Rp. 86.775</strong>
+												</span>
+										</div>
 									</div>
 									<ul>
 										<li>
@@ -112,8 +121,17 @@
 									<h5 class="name">
 										Refreshing Face Mist
 									</h5>
-									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+									{{-- <div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
 										<span class="price"><strong>Rp. 65.500</strong></span>
+									</div> --}}
+									<div class="text-right" style="text-align: right;">
+										<i class="fas fa-tag tag-disc float-right">15%</i>
+										<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+												<span class="price">
+														<s style="font-size: 10px; font-weight: normal; position: relative; top: -6px;">Rp. 86.450</s>&nbsp;
+														<strong>Rp. 73.483</strong>
+												</span>
+										</div>
 									</div>
 									<ul>
 										<li>

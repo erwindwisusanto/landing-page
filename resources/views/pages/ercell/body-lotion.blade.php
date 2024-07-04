@@ -71,8 +71,17 @@
 										Glow and Bright
 										Body Lotion
 									</h5>
-									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+									{{-- <div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
 										<span class="price"><strong>Rp. 98.000</strong></span>
+									</div> --}}
+									<div class="text-right" style="text-align: right;">
+										<i class="fas fa-tag tag-disc float-right">25%</i>
+										<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+												<span class="price">
+														<s style="font-size: 10px; font-weight: normal; position: relative; top: -6px;">Rp. 127.400</s>&nbsp;
+														<strong>Rp. 95.550</strong>
+												</span>
+										</div>
 									</div>
 									<ul>
 										<li>

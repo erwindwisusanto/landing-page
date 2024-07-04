@@ -69,8 +69,17 @@
 									<h5 class="name">
 										Ultimate Acne Brightening Serum
 									</h5>
-									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+									{{-- <div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
 										<span class="price"><strong>Rp. 42.500</strong></span>
+									</div> --}}
+									<div class="text-right" style="text-align: right;">
+										<i class="fas fa-tag tag-disc float-right">15%</i>
+										<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+												<span class="price">
+														<s style="font-size: 10px; font-weight: normal; position: relative; top: -6px;">Rp. 69.160</s>&nbsp;
+														<strong>Rp. 58.786</strong>
+												</span>
+										</div>
 									</div>
 									<ul>
 										<li>
@@ -111,8 +120,17 @@
 									<h5 class="name">
 										DNA Anti Aging Serum
 									</h5>
-									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+									{{-- <div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
 										<span class="price"><strong>Rp. 65.000</strong></span>
+									</div> --}}
+									<div class="text-right" style="text-align: right;">
+										<i class="fas fa-tag tag-disc float-right">25%</i>
+										<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+												<span class="price">
+														<s style="font-size: 10px; font-weight: normal; position: relative; top: -6px;">Rp. 84.500</s>&nbsp;
+														<strong>Rp. 63.375</strong>
+												</span>
+										</div>
 									</div>
 									<ul>
 										<li>
@@ -157,8 +175,17 @@
 									<h5 class="name">
 										Serum 3 in 1
 									</h5>
-									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+									{{-- <div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
 										<span class="price"><strong>Rp. 183.000</strong></span>
+									</div> --}}
+									<div class="text-right" style="text-align: right;">
+										<i class="fas fa-tag tag-disc float-right">25%</i>
+										<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+												<span class="price">
+														<s style="font-size: 10px; font-weight: normal; position: relative; top: -6px;">Rp. 237.900</s>&nbsp;
+														<strong>Rp. 178.425</strong>
+												</span>
+										</div>
 									</div>
 									<ul>
 										<li>

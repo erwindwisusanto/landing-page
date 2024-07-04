@@ -70,8 +70,17 @@
 									<h5 class="name">
 										Brightening UV Cream
 									</h5>
-									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+									{{-- <div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
 										<span class="price"><strong>Rp. 64.000</strong></span>
+									</div> --}}
+									<div class="text-right" style="text-align: right;">
+										<i class="fas fa-tag tag-disc float-right">25%</i>
+										<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+												<span class="price">
+														<s style="font-size: 10px; font-weight: normal; position: relative; top: -6px;">Rp. 103.870</s>&nbsp;
+														<strong>Rp. 77.903</strong>
+												</span>
+										</div>
 									</div>
 									<ul>
 										<li>
@@ -112,8 +121,17 @@
 									<h5 class="name">
 										Brightening Night Cream
 									</h5>
-									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+									{{-- <div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
 										<span class="price"><strong>Rp. 70.000</strong></span>
+									</div> --}}
+									<div class="text-right" style="text-align: right;">
+										<i class="fas fa-tag tag-disc float-right">25%</i>
+										<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+												<span class="price">
+														<s style="font-size: 10px; font-weight: normal; position: relative; top: -6px;">Rp. 113.360</s>&nbsp;
+														<strong>Rp. 85.020</strong>
+												</span>
+										</div>
 									</div>
 									<ul>
 										<li>
@@ -204,11 +222,11 @@
 										Glutathione Night Cream With Vitamin B5
 									</h5>
 									<div class="text-right" style="text-align: right;">
-										<i class="fas fa-tag tag-disc float-right">25%</i>
+										<i class="fas fa-tag tag-disc float-right">15%</i>
 										<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
 												<span class="price">
 														<s style="font-size: 10px; font-weight: normal; position: relative; top: -6px;">Rp. 66.300</s>&nbsp;
-														<strong>Rp. 49.750</strong>
+														<strong>Rp. 49.725</strong>
 												</span>
 										</div>
 									</div>
@@ -249,8 +267,17 @@
 									<h5 class="name">
 										Sunflower Moisturizer Soothing Gel
 									</h5>
-									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+									{{-- <div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
 										<span class="price"><strong>Rp. 40.000</strong></span>
+									</div> --}}
+									<div class="text-right" style="text-align: right;">
+										<i class="fas fa-tag tag-disc float-right">15%</i>
+										<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+												<span class="price">
+														<s style="font-size: 10px; font-weight: normal; position: relative; top: -6px;">Rp. 52.000</s>&nbsp;
+														<strong>Rp. 44.200</strong>
+												</span>
+										</div>
 									</div>
 									<ul>
 										<li>

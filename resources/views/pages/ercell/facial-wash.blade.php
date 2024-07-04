@@ -70,8 +70,17 @@
 									<h5 class="name">
 										Brightening Facial Wash
 									</h5>
-									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+									{{-- <div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
 										<span class="price"><strong>Rp. 75.000</strong></span>
+									</div> --}}
+									<div class="text-right" style="text-align: right;">
+										<i class="fas fa-tag tag-disc float-right">25%</i>
+										<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+												<span class="price">
+														<s style="font-size: 10px; font-weight: normal; position: relative; top: -6px;">Rp. 120.770</s>&nbsp;
+														<strong>Rp. 90.578</strong>
+												</span>
+										</div>
 									</div>
 									<ul>
 										<li>
@@ -118,8 +127,17 @@
 									<h5 class="name">
 										Mulberry Facial Wash with Matsutake Extract
 									</h5>
-									<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+									{{-- <div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
 										<span class="price"><strong>Rp. 45.000</strong></span>
+									</div> --}}
+									<div class="text-right" style="text-align: right;">
+										<i class="fas fa-tag tag-disc float-right">25%</i>
+										<div class="py-5 pt-3" style="border-top: 3px solid #F7931D; position: relative;">
+												<span class="price">
+														<s style="font-size: 10px; font-weight: normal; position: relative; top: -6px;">Rp. 73.190</s>&nbsp;
+														<strong>Rp. 54.893</strong>
+												</span>
+										</div>
 									</div>
 									<ul>
 										<li>
