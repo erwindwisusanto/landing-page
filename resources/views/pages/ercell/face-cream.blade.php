@@ -135,10 +135,10 @@
 									</div>
 									<ul>
 										<li>
-											Menjaga kulit dari bahaya paparan sinar UV
+											Menjaga kulit sepanjang malam sehingga kulit lebih halus, lembut & kenyal
 										</li>
 										<li>
-											Membuat kulit tetap sehat serta tampak lebih cerah
+											Mengangkat sel kulit mati dan menyamarkan flek hitam
 										</li>
 									</ul>
 									<p>
@@ -183,10 +183,10 @@
 									</div>
 									<ul>
 										<li>
-											Menjaga kulit sepanjang malam sehingga kulit lebih halus, lembut & kenyal
+											Menjaga kulit dari bahaya paparan sinar UV
 										</li>
 										<li>
-											Mengangkat sel kulit mati dan menyamarkan flek hitam
+											Membuat kulit tetap sehat serta tampak lebih cerah
 										</li>
 									</ul>
 									<p>
